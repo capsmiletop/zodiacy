@@ -1,0 +1,4061 @@
+{
+    "periodo": "2025-07-01 - 2026-06-30",
+    "transiti": {
+        "luglio 2025": {
+            "1/7": {
+                "Sole": {
+                    "longitude": "98.96",
+                    "zodiac": {
+                        "sign": "Cancro",
+                        "signIndex": 3,
+                        "degree": 8,
+                        "minute": 57,
+                        "second": 28,
+                        "formatted": "8°57'28\" Cancro"
+                    }
+                },
+                "Luna": {
+                    "longitude": "162.89",
+                    "zodiac": {
+                        "sign": "Vergine",
+                        "signIndex": 5,
+                        "degree": 12,
+                        "minute": 53,
+                        "second": 28,
+                        "formatted": "12°53'28\" Vergine"
+                    }
+                },
+                "Mercurio": {
+                    "longitude": "124.54",
+                    "zodiac": {
+                        "sign": "Leone",
+                        "signIndex": 4,
+                        "degree": 4,
+                        "minute": 32,
+                        "second": 27,
+                        "formatted": "4°32'27\" Leone"
+                    }
+                },
+                "Venere": {
+                    "longitude": "55.45",
+                    "zodiac": {
+                        "sign": "Toro",
+                        "signIndex": 1,
+                        "degree": 25,
+                        "minute": 27,
+                        "second": 15,
+                        "formatted": "25°27'15\" Toro"
+                    }
+                },
+                "Marte": {
+                    "longitude": "157.48",
+                    "zodiac": {
+                        "sign": "Vergine",
+                        "signIndex": 5,
+                        "degree": 7,
+                        "minute": 28,
+                        "second": 45,
+                        "formatted": "7°28'45\" Vergine"
+                    }
+                },
+                "Giove": {
+                    "longitude": "94.70",
+                    "zodiac": {
+                        "sign": "Cancro",
+                        "signIndex": 3,
+                        "degree": 4,
+                        "minute": 42,
+                        "second": 7,
+                        "formatted": "4°42'7\" Cancro"
+                    }
+                },
+                "Saturno": {
+                    "longitude": "1.80",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 1,
+                        "minute": 47,
+                        "second": 59,
+                        "formatted": "1°47'59\" Ariete"
+                    }
+                },
+                "Urano": {
+                    "longitude": "59.68",
+                    "zodiac": {
+                        "sign": "Toro",
+                        "signIndex": 1,
+                        "degree": 29,
+                        "minute": 41,
+                        "second": 0,
+                        "formatted": "29°41'0\" Toro"
+                    }
+                },
+                "Nettuno": {
+                    "longitude": "2.17",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 2,
+                        "minute": 10,
+                        "second": 13,
+                        "formatted": "2°10'13\" Ariete"
+                    }
+                },
+                "Plutone": {
+                    "longitude": "303.15",
+                    "zodiac": {
+                        "sign": "Acquario",
+                        "signIndex": 10,
+                        "degree": 3,
+                        "minute": 9,
+                        "second": 5,
+                        "formatted": "3°9'5\" Acquario"
+                    }
+                }
+            },
+            "15/7": {
+                "Sole": {
+                    "longitude": "112.31",
+                    "zodiac": {
+                        "sign": "Cancro",
+                        "signIndex": 3,
+                        "degree": 22,
+                        "minute": 18,
+                        "second": 20,
+                        "formatted": "22°18'20\" Cancro"
+                    }
+                },
+                "Luna": {
+                    "longitude": "336.89",
+                    "zodiac": {
+                        "sign": "Pesci",
+                        "signIndex": 11,
+                        "degree": 6,
+                        "minute": 53,
+                        "second": 20,
+                        "formatted": "6°53'20\" Pesci"
+                    }
+                },
+                "Mercurio": {
+                    "longitude": "135.03",
+                    "zodiac": {
+                        "sign": "Leone",
+                        "signIndex": 4,
+                        "degree": 15,
+                        "minute": 1,
+                        "second": 48,
+                        "formatted": "15°1'48\" Leone"
+                    }
+                },
+                "Venere": {
+                    "longitude": "70.98",
+                    "zodiac": {
+                        "sign": "Gemelli",
+                        "signIndex": 2,
+                        "degree": 10,
+                        "minute": 58,
+                        "second": 30,
+                        "formatted": "10°58'30\" Gemelli"
+                    }
+                },
+                "Marte": {
+                    "longitude": "165.70",
+                    "zodiac": {
+                        "sign": "Vergine",
+                        "signIndex": 5,
+                        "degree": 15,
+                        "minute": 41,
+                        "second": 52,
+                        "formatted": "15°41'52\" Vergine"
+                    }
+                },
+                "Giove": {
+                    "longitude": "97.87",
+                    "zodiac": {
+                        "sign": "Cancro",
+                        "signIndex": 3,
+                        "degree": 7,
+                        "minute": 52,
+                        "second": 11,
+                        "formatted": "7°52'11\" Cancro"
+                    }
+                },
+                "Saturno": {
+                    "longitude": "1.93",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 1,
+                        "minute": 55,
+                        "second": 58,
+                        "formatted": "1°55'58\" Ariete"
+                    }
+                },
+                "Urano": {
+                    "longitude": "60.31",
+                    "zodiac": {
+                        "sign": "Gemelli",
+                        "signIndex": 2,
+                        "degree": 0,
+                        "minute": 18,
+                        "second": 23,
+                        "formatted": "0°18'23\" Gemelli"
+                    }
+                },
+                "Nettuno": {
+                    "longitude": "2.15",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 2,
+                        "minute": 9,
+                        "second": 3,
+                        "formatted": "2°9'3\" Ariete"
+                    }
+                },
+                "Plutone": {
+                    "longitude": "302.84",
+                    "zodiac": {
+                        "sign": "Acquario",
+                        "signIndex": 10,
+                        "degree": 2,
+                        "minute": 50,
+                        "second": 30,
+                        "formatted": "2°50'30\" Acquario"
+                    }
+                }
+            },
+            "31/7": {
+                "Sole": {
+                    "longitude": "127.59",
+                    "zodiac": {
+                        "sign": "Leone",
+                        "signIndex": 4,
+                        "degree": 7,
+                        "minute": 35,
+                        "second": 15,
+                        "formatted": "7°35'15\" Leone"
+                    }
+                },
+                "Luna": {
+                    "longitude": "195.35",
+                    "zodiac": {
+                        "sign": "Bilancia",
+                        "signIndex": 6,
+                        "degree": 15,
+                        "minute": 21,
+                        "second": 4,
+                        "formatted": "15°21'4\" Bilancia"
+                    }
+                },
+                "Mercurio": {
+                    "longitude": "130.12",
+                    "zodiac": {
+                        "sign": "Leone",
+                        "signIndex": 4,
+                        "degree": 10,
+                        "minute": 6,
+                        "second": 58,
+                        "formatted": "10°6'58\" Leone"
+                    }
+                },
+                "Venere": {
+                    "longitude": "89.23",
+                    "zodiac": {
+                        "sign": "Gemelli",
+                        "signIndex": 2,
+                        "degree": 29,
+                        "minute": 13,
+                        "second": 54,
+                        "formatted": "29°13'54\" Gemelli"
+                    }
+                },
+                "Marte": {
+                    "longitude": "175.38",
+                    "zodiac": {
+                        "sign": "Vergine",
+                        "signIndex": 5,
+                        "degree": 25,
+                        "minute": 22,
+                        "second": 41,
+                        "formatted": "25°22'41\" Vergine"
+                    }
+                },
+                "Giove": {
+                    "longitude": "101.39",
+                    "zodiac": {
+                        "sign": "Cancro",
+                        "signIndex": 3,
+                        "degree": 11,
+                        "minute": 23,
+                        "second": 27,
+                        "formatted": "11°23'27\" Cancro"
+                    }
+                },
+                "Saturno": {
+                    "longitude": "1.68",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 1,
+                        "minute": 41,
+                        "second": 0,
+                        "formatted": "1°41'0\" Ariete"
+                    }
+                },
+                "Urano": {
+                    "longitude": "60.88",
+                    "zodiac": {
+                        "sign": "Gemelli",
+                        "signIndex": 2,
+                        "degree": 0,
+                        "minute": 52,
+                        "second": 36,
+                        "formatted": "0°52'36\" Gemelli"
+                    }
+                },
+                "Nettuno": {
+                    "longitude": "2.00",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 2,
+                        "minute": 0,
+                        "second": 11,
+                        "formatted": "2°0'11\" Ariete"
+                    }
+                },
+                "Plutone": {
+                    "longitude": "302.47",
+                    "zodiac": {
+                        "sign": "Acquario",
+                        "signIndex": 10,
+                        "degree": 2,
+                        "minute": 28,
+                        "second": 0,
+                        "formatted": "2°28'0\" Acquario"
+                    }
+                }
+            }
+        },
+        "agosto 2025": {
+            "1/8": {
+                "Sole": {
+                    "longitude": "128.54",
+                    "zodiac": {
+                        "sign": "Leone",
+                        "signIndex": 4,
+                        "degree": 8,
+                        "minute": 32,
+                        "second": 38,
+                        "formatted": "8°32'38\" Leone"
+                    }
+                },
+                "Luna": {
+                    "longitude": "207.32",
+                    "zodiac": {
+                        "sign": "Bilancia",
+                        "signIndex": 6,
+                        "degree": 27,
+                        "minute": 18,
+                        "second": 54,
+                        "formatted": "27°18'54\" Bilancia"
+                    }
+                },
+                "Mercurio": {
+                    "longitude": "129.37",
+                    "zodiac": {
+                        "sign": "Leone",
+                        "signIndex": 4,
+                        "degree": 9,
+                        "minute": 22,
+                        "second": 18,
+                        "formatted": "9°22'18\" Leone"
+                    }
+                },
+                "Venere": {
+                    "longitude": "90.39",
+                    "zodiac": {
+                        "sign": "Cancro",
+                        "signIndex": 3,
+                        "degree": 0,
+                        "minute": 23,
+                        "second": 15,
+                        "formatted": "0°23'15\" Cancro"
+                    }
+                },
+                "Marte": {
+                    "longitude": "175.99",
+                    "zodiac": {
+                        "sign": "Vergine",
+                        "signIndex": 5,
+                        "degree": 25,
+                        "minute": 59,
+                        "second": 34,
+                        "formatted": "25°59'34\" Vergine"
+                    }
+                },
+                "Giove": {
+                    "longitude": "101.61",
+                    "zodiac": {
+                        "sign": "Cancro",
+                        "signIndex": 3,
+                        "degree": 11,
+                        "minute": 36,
+                        "second": 20,
+                        "formatted": "11°36'20\" Cancro"
+                    }
+                },
+                "Saturno": {
+                    "longitude": "1.65",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 1,
+                        "minute": 39,
+                        "second": 14,
+                        "formatted": "1°39'14\" Ariete"
+                    }
+                },
+                "Urano": {
+                    "longitude": "60.91",
+                    "zodiac": {
+                        "sign": "Gemelli",
+                        "signIndex": 2,
+                        "degree": 0,
+                        "minute": 54,
+                        "second": 24,
+                        "formatted": "0°54'24\" Gemelli"
+                    }
+                },
+                "Nettuno": {
+                    "longitude": "1.99",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 1,
+                        "minute": 59,
+                        "second": 23,
+                        "formatted": "1°59'23\" Ariete"
+                    }
+                },
+                "Plutone": {
+                    "longitude": "302.44",
+                    "zodiac": {
+                        "sign": "Acquario",
+                        "signIndex": 10,
+                        "degree": 2,
+                        "minute": 26,
+                        "second": 35,
+                        "formatted": "2°26'35\" Acquario"
+                    }
+                }
+            },
+            "15/8": {
+                "Sole": {
+                    "longitude": "141.96",
+                    "zodiac": {
+                        "sign": "Leone",
+                        "signIndex": 4,
+                        "degree": 21,
+                        "minute": 57,
+                        "second": 31,
+                        "formatted": "21°57'31\" Leone"
+                    }
+                },
+                "Luna": {
+                    "longitude": "29.19",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 29,
+                        "minute": 11,
+                        "second": 26,
+                        "formatted": "29°11'26\" Ariete"
+                    }
+                },
+                "Mercurio": {
+                    "longitude": "124.84",
+                    "zodiac": {
+                        "sign": "Leone",
+                        "signIndex": 4,
+                        "degree": 4,
+                        "minute": 50,
+                        "second": 33,
+                        "formatted": "4°50'33\" Leone"
+                    }
+                },
+                "Venere": {
+                    "longitude": "106.73",
+                    "zodiac": {
+                        "sign": "Cancro",
+                        "signIndex": 3,
+                        "degree": 16,
+                        "minute": 44,
+                        "second": 1,
+                        "formatted": "16°44'1\" Cancro"
+                    }
+                },
+                "Marte": {
+                    "longitude": "184.71",
+                    "zodiac": {
+                        "sign": "Bilancia",
+                        "signIndex": 6,
+                        "degree": 4,
+                        "minute": 42,
+                        "second": 48,
+                        "formatted": "4°42'48\" Bilancia"
+                    }
+                },
+                "Giove": {
+                    "longitude": "104.52",
+                    "zodiac": {
+                        "sign": "Cancro",
+                        "signIndex": 3,
+                        "degree": 14,
+                        "minute": 31,
+                        "second": 23,
+                        "formatted": "14°31'23\" Cancro"
+                    }
+                },
+                "Saturno": {
+                    "longitude": "1.09",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 1,
+                        "minute": 5,
+                        "second": 6,
+                        "formatted": "1°5'6\" Ariete"
+                    }
+                },
+                "Urano": {
+                    "longitude": "61.25",
+                    "zodiac": {
+                        "sign": "Gemelli",
+                        "signIndex": 2,
+                        "degree": 1,
+                        "minute": 14,
+                        "second": 49,
+                        "formatted": "1°14'49\" Gemelli"
+                    }
+                },
+                "Nettuno": {
+                    "longitude": "1.76",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 1,
+                        "minute": 45,
+                        "second": 20,
+                        "formatted": "1°45'20\" Ariete"
+                    }
+                },
+                "Plutone": {
+                    "longitude": "302.12",
+                    "zodiac": {
+                        "sign": "Acquario",
+                        "signIndex": 10,
+                        "degree": 2,
+                        "minute": 7,
+                        "second": 29,
+                        "formatted": "2°7'29\" Acquario"
+                    }
+                }
+            },
+            "31/8": {
+                "Sole": {
+                    "longitude": "157.38",
+                    "zodiac": {
+                        "sign": "Vergine",
+                        "signIndex": 5,
+                        "degree": 7,
+                        "minute": 22,
+                        "second": 44,
+                        "formatted": "7°22'44\" Vergine"
+                    }
+                },
+                "Luna": {
+                    "longitude": "238.97",
+                    "zodiac": {
+                        "sign": "Scorpione",
+                        "signIndex": 7,
+                        "degree": 28,
+                        "minute": 58,
+                        "second": 21,
+                        "formatted": "28°58'21\" Scorpione"
+                    }
+                },
+                "Mercurio": {
+                    "longitude": "144.27",
+                    "zodiac": {
+                        "sign": "Leone",
+                        "signIndex": 4,
+                        "degree": 24,
+                        "minute": 16,
+                        "second": 22,
+                        "formatted": "24°16'22\" Leone"
+                    }
+                },
+                "Venere": {
+                    "longitude": "125.76",
+                    "zodiac": {
+                        "sign": "Leone",
+                        "signIndex": 4,
+                        "degree": 5,
+                        "minute": 45,
+                        "second": 31,
+                        "formatted": "5°45'31\" Leone"
+                    }
+                },
+                "Marte": {
+                    "longitude": "194.94",
+                    "zodiac": {
+                        "sign": "Bilancia",
+                        "signIndex": 6,
+                        "degree": 14,
+                        "minute": 56,
+                        "second": 25,
+                        "formatted": "14°56'25\" Bilancia"
+                    }
+                },
+                "Giove": {
+                    "longitude": "107.60",
+                    "zodiac": {
+                        "sign": "Cancro",
+                        "signIndex": 3,
+                        "degree": 17,
+                        "minute": 36,
+                        "second": 4,
+                        "formatted": "17°36'4\" Cancro"
+                    }
+                },
+                "Saturno": {
+                    "longitude": "0.13",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 0,
+                        "minute": 7,
+                        "second": 35,
+                        "formatted": "0°7'35\" Ariete"
+                    }
+                },
+                "Urano": {
+                    "longitude": "61.44",
+                    "zodiac": {
+                        "sign": "Gemelli",
+                        "signIndex": 2,
+                        "degree": 1,
+                        "minute": 26,
+                        "second": 40,
+                        "formatted": "1°26'40\" Gemelli"
+                    }
+                },
+                "Nettuno": {
+                    "longitude": "1.40",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 1,
+                        "minute": 23,
+                        "second": 55,
+                        "formatted": "1°23'55\" Ariete"
+                    }
+                },
+                "Plutone": {
+                    "longitude": "301.80",
+                    "zodiac": {
+                        "sign": "Acquario",
+                        "signIndex": 10,
+                        "degree": 1,
+                        "minute": 48,
+                        "second": 9,
+                        "formatted": "1°48'9\" Acquario"
+                    }
+                }
+            }
+        },
+        "settembre 2025": {
+            "1/9": {
+                "Sole": {
+                    "longitude": "158.35",
+                    "zodiac": {
+                        "sign": "Vergine",
+                        "signIndex": 5,
+                        "degree": 8,
+                        "minute": 20,
+                        "second": 45,
+                        "formatted": "8°20'45\" Vergine"
+                    }
+                },
+                "Luna": {
+                    "longitude": "250.91",
+                    "zodiac": {
+                        "sign": "Sagittario",
+                        "signIndex": 8,
+                        "degree": 10,
+                        "minute": 54,
+                        "second": 21,
+                        "formatted": "10°54'21\" Sagittario"
+                    }
+                },
+                "Mercurio": {
+                    "longitude": "146.12",
+                    "zodiac": {
+                        "sign": "Leone",
+                        "signIndex": 4,
+                        "degree": 26,
+                        "minute": 6,
+                        "second": 58,
+                        "formatted": "26°6'58\" Leone"
+                    }
+                },
+                "Venere": {
+                    "longitude": "126.96",
+                    "zodiac": {
+                        "sign": "Leone",
+                        "signIndex": 4,
+                        "degree": 6,
+                        "minute": 57,
+                        "second": 30,
+                        "formatted": "6°57'30\" Leone"
+                    }
+                },
+                "Marte": {
+                    "longitude": "195.59",
+                    "zodiac": {
+                        "sign": "Bilancia",
+                        "signIndex": 6,
+                        "degree": 15,
+                        "minute": 35,
+                        "second": 19,
+                        "formatted": "15°35'19\" Bilancia"
+                    }
+                },
+                "Giove": {
+                    "longitude": "107.78",
+                    "zodiac": {
+                        "sign": "Cancro",
+                        "signIndex": 3,
+                        "degree": 17,
+                        "minute": 46,
+                        "second": 55,
+                        "formatted": "17°46'55\" Cancro"
+                    }
+                },
+                "Saturno": {
+                    "longitude": "0.06",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 0,
+                        "minute": 3,
+                        "second": 28,
+                        "formatted": "0°3'28\" Ariete"
+                    }
+                },
+                "Urano": {
+                    "longitude": "61.45",
+                    "zodiac": {
+                        "sign": "Gemelli",
+                        "signIndex": 2,
+                        "degree": 1,
+                        "minute": 26,
+                        "second": 59,
+                        "formatted": "1°26'59\" Gemelli"
+                    }
+                },
+                "Nettuno": {
+                    "longitude": "1.37",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 1,
+                        "minute": 22,
+                        "second": 26,
+                        "formatted": "1°22'26\" Ariete"
+                    }
+                },
+                "Plutone": {
+                    "longitude": "301.78",
+                    "zodiac": {
+                        "sign": "Acquario",
+                        "signIndex": 10,
+                        "degree": 1,
+                        "minute": 47,
+                        "second": 4,
+                        "formatted": "1°47'4\" Acquario"
+                    }
+                }
+            },
+            "15/9": {
+                "Sole": {
+                    "longitude": "171.93",
+                    "zodiac": {
+                        "sign": "Vergine",
+                        "signIndex": 5,
+                        "degree": 21,
+                        "minute": 55,
+                        "second": 51,
+                        "formatted": "21°55'51\" Vergine"
+                    }
+                },
+                "Luna": {
+                    "longitude": "82.72",
+                    "zodiac": {
+                        "sign": "Gemelli",
+                        "signIndex": 2,
+                        "degree": 22,
+                        "minute": 43,
+                        "second": 14,
+                        "formatted": "22°43'14\" Gemelli"
+                    }
+                },
+                "Mercurio": {
+                    "longitude": "172.86",
+                    "zodiac": {
+                        "sign": "Vergine",
+                        "signIndex": 5,
+                        "degree": 22,
+                        "minute": 51,
+                        "second": 39,
+                        "formatted": "22°51'39\" Vergine"
+                    }
+                },
+                "Venere": {
+                    "longitude": "143.87",
+                    "zodiac": {
+                        "sign": "Leone",
+                        "signIndex": 4,
+                        "degree": 23,
+                        "minute": 52,
+                        "second": 22,
+                        "formatted": "23°52'22\" Leone"
+                    }
+                },
+                "Marte": {
+                    "longitude": "204.77",
+                    "zodiac": {
+                        "sign": "Bilancia",
+                        "signIndex": 6,
+                        "degree": 24,
+                        "minute": 46,
+                        "second": 21,
+                        "formatted": "24°46'21\" Bilancia"
+                    }
+                },
+                "Giove": {
+                    "longitude": "110.15",
+                    "zodiac": {
+                        "sign": "Cancro",
+                        "signIndex": 3,
+                        "degree": 20,
+                        "minute": 8,
+                        "second": 58,
+                        "formatted": "20°8'58\" Cancro"
+                    }
+                },
+                "Saturno": {
+                    "longitude": "359.03",
+                    "zodiac": {
+                        "sign": "Pesci",
+                        "signIndex": 11,
+                        "degree": 29,
+                        "minute": 1,
+                        "second": 50,
+                        "formatted": "29°1'50\" Pesci"
+                    }
+                },
+                "Urano": {
+                    "longitude": "61.43",
+                    "zodiac": {
+                        "sign": "Gemelli",
+                        "signIndex": 2,
+                        "degree": 1,
+                        "minute": 26,
+                        "second": 5,
+                        "formatted": "1°26'5\" Gemelli"
+                    }
+                },
+                "Nettuno": {
+                    "longitude": "1.01",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 1,
+                        "minute": 0,
+                        "second": 24,
+                        "formatted": "1°0'24\" Ariete"
+                    }
+                },
+                "Plutone": {
+                    "longitude": "301.57",
+                    "zodiac": {
+                        "sign": "Acquario",
+                        "signIndex": 10,
+                        "degree": 1,
+                        "minute": 34,
+                        "second": 2,
+                        "formatted": "1°34'2\" Acquario"
+                    }
+                }
+            },
+            "30/9": {
+                "Sole": {
+                    "longitude": "186.61",
+                    "zodiac": {
+                        "sign": "Bilancia",
+                        "signIndex": 6,
+                        "degree": 6,
+                        "minute": 36,
+                        "second": 19,
+                        "formatted": "6°36'19\" Bilancia"
+                    }
+                },
+                "Luna": {
+                    "longitude": "271.05",
+                    "zodiac": {
+                        "sign": "Capricorno",
+                        "signIndex": 9,
+                        "degree": 1,
+                        "minute": 3,
+                        "second": 8,
+                        "formatted": "1°3'8\" Capricorno"
+                    }
+                },
+                "Mercurio": {
+                    "longitude": "198.79",
+                    "zodiac": {
+                        "sign": "Bilancia",
+                        "signIndex": 6,
+                        "degree": 18,
+                        "minute": 47,
+                        "second": 21,
+                        "formatted": "18°47'21\" Bilancia"
+                    }
+                },
+                "Venere": {
+                    "longitude": "162.22",
+                    "zodiac": {
+                        "sign": "Vergine",
+                        "signIndex": 5,
+                        "degree": 12,
+                        "minute": 13,
+                        "second": 27,
+                        "formatted": "12°13'27\" Vergine"
+                    }
+                },
+                "Marte": {
+                    "longitude": "214.84",
+                    "zodiac": {
+                        "sign": "Scorpione",
+                        "signIndex": 7,
+                        "degree": 4,
+                        "minute": 50,
+                        "second": 39,
+                        "formatted": "4°50'39\" Scorpione"
+                    }
+                },
+                "Giove": {
+                    "longitude": "112.28",
+                    "zodiac": {
+                        "sign": "Cancro",
+                        "signIndex": 3,
+                        "degree": 22,
+                        "minute": 16,
+                        "second": 39,
+                        "formatted": "22°16'39\" Cancro"
+                    }
+                },
+                "Saturno": {
+                    "longitude": "357.87",
+                    "zodiac": {
+                        "sign": "Pesci",
+                        "signIndex": 11,
+                        "degree": 27,
+                        "minute": 52,
+                        "second": 18,
+                        "formatted": "27°52'18\" Pesci"
+                    }
+                },
+                "Urano": {
+                    "longitude": "61.24",
+                    "zodiac": {
+                        "sign": "Gemelli",
+                        "signIndex": 2,
+                        "degree": 1,
+                        "minute": 14,
+                        "second": 19,
+                        "formatted": "1°14'19\" Gemelli"
+                    }
+                },
+                "Nettuno": {
+                    "longitude": "0.59",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 0,
+                        "minute": 35,
+                        "second": 33,
+                        "formatted": "0°35'33\" Ariete"
+                    }
+                },
+                "Plutone": {
+                    "longitude": "301.42",
+                    "zodiac": {
+                        "sign": "Acquario",
+                        "signIndex": 10,
+                        "degree": 1,
+                        "minute": 25,
+                        "second": 2,
+                        "formatted": "1°25'2\" Acquario"
+                    }
+                }
+            }
+        },
+        "ottobre 2025": {
+            "1/10": {
+                "Sole": {
+                    "longitude": "187.59",
+                    "zodiac": {
+                        "sign": "Bilancia",
+                        "signIndex": 6,
+                        "degree": 7,
+                        "minute": 35,
+                        "second": 16,
+                        "formatted": "7°35'16\" Bilancia"
+                    }
+                },
+                "Luna": {
+                    "longitude": "283.30",
+                    "zodiac": {
+                        "sign": "Capricorno",
+                        "signIndex": 9,
+                        "degree": 13,
+                        "minute": 17,
+                        "second": 52,
+                        "formatted": "13°17'52\" Capricorno"
+                    }
+                },
+                "Mercurio": {
+                    "longitude": "200.39",
+                    "zodiac": {
+                        "sign": "Bilancia",
+                        "signIndex": 6,
+                        "degree": 20,
+                        "minute": 23,
+                        "second": 28,
+                        "formatted": "20°23'28\" Bilancia"
+                    }
+                },
+                "Venere": {
+                    "longitude": "163.45",
+                    "zodiac": {
+                        "sign": "Vergine",
+                        "signIndex": 5,
+                        "degree": 13,
+                        "minute": 27,
+                        "second": 16,
+                        "formatted": "13°27'16\" Vergine"
+                    }
+                },
+                "Marte": {
+                    "longitude": "215.52",
+                    "zodiac": {
+                        "sign": "Scorpione",
+                        "signIndex": 7,
+                        "degree": 5,
+                        "minute": 31,
+                        "second": 27,
+                        "formatted": "5°31'27\" Scorpione"
+                    }
+                },
+                "Giove": {
+                    "longitude": "112.40",
+                    "zodiac": {
+                        "sign": "Cancro",
+                        "signIndex": 3,
+                        "degree": 22,
+                        "minute": 24,
+                        "second": 7,
+                        "formatted": "22°24'7\" Cancro"
+                    }
+                },
+                "Saturno": {
+                    "longitude": "357.80",
+                    "zodiac": {
+                        "sign": "Pesci",
+                        "signIndex": 11,
+                        "degree": 27,
+                        "minute": 47,
+                        "second": 45,
+                        "formatted": "27°47'45\" Pesci"
+                    }
+                },
+                "Urano": {
+                    "longitude": "61.22",
+                    "zodiac": {
+                        "sign": "Gemelli",
+                        "signIndex": 2,
+                        "degree": 1,
+                        "minute": 13,
+                        "second": 9,
+                        "formatted": "1°13'9\" Gemelli"
+                    }
+                },
+                "Nettuno": {
+                    "longitude": "0.57",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 0,
+                        "minute": 33,
+                        "second": 54,
+                        "formatted": "0°33'54\" Ariete"
+                    }
+                },
+                "Plutone": {
+                    "longitude": "301.41",
+                    "zodiac": {
+                        "sign": "Acquario",
+                        "signIndex": 10,
+                        "degree": 1,
+                        "minute": 24,
+                        "second": 38,
+                        "formatted": "1°24'38\" Acquario"
+                    }
+                }
+            },
+            "15/10": {
+                "Sole": {
+                    "longitude": "201.40",
+                    "zodiac": {
+                        "sign": "Bilancia",
+                        "signIndex": 6,
+                        "degree": 21,
+                        "minute": 23,
+                        "second": 51,
+                        "formatted": "21°23'51\" Bilancia"
+                    }
+                },
+                "Luna": {
+                    "longitude": "120.68",
+                    "zodiac": {
+                        "sign": "Leone",
+                        "signIndex": 4,
+                        "degree": 0,
+                        "minute": 40,
+                        "second": 37,
+                        "formatted": "0°40'37\" Leone"
+                    }
+                },
+                "Mercurio": {
+                    "longitude": "221.36",
+                    "zodiac": {
+                        "sign": "Scorpione",
+                        "signIndex": 7,
+                        "degree": 11,
+                        "minute": 21,
+                        "second": 35,
+                        "formatted": "11°21'35\" Scorpione"
+                    }
+                },
+                "Venere": {
+                    "longitude": "180.76",
+                    "zodiac": {
+                        "sign": "Bilancia",
+                        "signIndex": 6,
+                        "degree": 0,
+                        "minute": 45,
+                        "second": 33,
+                        "formatted": "0°45'33\" Bilancia"
+                    }
+                },
+                "Marte": {
+                    "longitude": "225.15",
+                    "zodiac": {
+                        "sign": "Scorpione",
+                        "signIndex": 7,
+                        "degree": 15,
+                        "minute": 8,
+                        "second": 57,
+                        "formatted": "15°8'57\" Scorpione"
+                    }
+                },
+                "Giove": {
+                    "longitude": "113.88",
+                    "zodiac": {
+                        "sign": "Cancro",
+                        "signIndex": 3,
+                        "degree": 23,
+                        "minute": 53,
+                        "second": 0,
+                        "formatted": "23°53'0\" Cancro"
+                    }
+                },
+                "Saturno": {
+                    "longitude": "356.79",
+                    "zodiac": {
+                        "sign": "Pesci",
+                        "signIndex": 11,
+                        "degree": 26,
+                        "minute": 47,
+                        "second": 25,
+                        "formatted": "26°47'25\" Pesci"
+                    }
+                },
+                "Urano": {
+                    "longitude": "60.87",
+                    "zodiac": {
+                        "sign": "Gemelli",
+                        "signIndex": 2,
+                        "degree": 0,
+                        "minute": 52,
+                        "second": 26,
+                        "formatted": "0°52'26\" Gemelli"
+                    }
+                },
+                "Nettuno": {
+                    "longitude": "0.19",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 0,
+                        "minute": 11,
+                        "second": 35,
+                        "formatted": "0°11'35\" Ariete"
+                    }
+                },
+                "Plutone": {
+                    "longitude": "301.37",
+                    "zodiac": {
+                        "sign": "Acquario",
+                        "signIndex": 10,
+                        "degree": 1,
+                        "minute": 22,
+                        "second": 1,
+                        "formatted": "1°22'1\" Acquario"
+                    }
+                }
+            },
+            "31/10": {
+                "Sole": {
+                    "longitude": "217.32",
+                    "zodiac": {
+                        "sign": "Scorpione",
+                        "signIndex": 7,
+                        "degree": 7,
+                        "minute": 19,
+                        "second": 20,
+                        "formatted": "7°19'20\" Scorpione"
+                    }
+                },
+                "Luna": {
+                    "longitude": "316.98",
+                    "zodiac": {
+                        "sign": "Acquario",
+                        "signIndex": 10,
+                        "degree": 16,
+                        "minute": 58,
+                        "second": 42,
+                        "formatted": "16°58'42\" Acquario"
+                    }
+                },
+                "Mercurio": {
+                    "longitude": "241.03",
+                    "zodiac": {
+                        "sign": "Sagittario",
+                        "signIndex": 8,
+                        "degree": 1,
+                        "minute": 1,
+                        "second": 57,
+                        "formatted": "1°1'57\" Sagittario"
+                    }
+                },
+                "Venere": {
+                    "longitude": "200.69",
+                    "zodiac": {
+                        "sign": "Bilancia",
+                        "signIndex": 6,
+                        "degree": 20,
+                        "minute": 41,
+                        "second": 23,
+                        "formatted": "20°41'23\" Bilancia"
+                    }
+                },
+                "Marte": {
+                    "longitude": "236.40",
+                    "zodiac": {
+                        "sign": "Scorpione",
+                        "signIndex": 7,
+                        "degree": 26,
+                        "minute": 24,
+                        "second": 3,
+                        "formatted": "26°24'3\" Scorpione"
+                    }
+                },
+                "Giove": {
+                    "longitude": "114.91",
+                    "zodiac": {
+                        "sign": "Cancro",
+                        "signIndex": 3,
+                        "degree": 24,
+                        "minute": 54,
+                        "second": 31,
+                        "formatted": "24°54'31\" Cancro"
+                    }
+                },
+                "Saturno": {
+                    "longitude": "355.87",
+                    "zodiac": {
+                        "sign": "Pesci",
+                        "signIndex": 11,
+                        "degree": 25,
+                        "minute": 51,
+                        "second": 57,
+                        "formatted": "25°51'57\" Pesci"
+                    }
+                },
+                "Urano": {
+                    "longitude": "60.33",
+                    "zodiac": {
+                        "sign": "Gemelli",
+                        "signIndex": 2,
+                        "degree": 0,
+                        "minute": 20,
+                        "second": 4,
+                        "formatted": "0°20'4\" Gemelli"
+                    }
+                },
+                "Nettuno": {
+                    "longitude": "359.82",
+                    "zodiac": {
+                        "sign": "Pesci",
+                        "signIndex": 11,
+                        "degree": 29,
+                        "minute": 49,
+                        "second": 20,
+                        "formatted": "29°49'20\" Pesci"
+                    }
+                },
+                "Plutone": {
+                    "longitude": "301.43",
+                    "zodiac": {
+                        "sign": "Acquario",
+                        "signIndex": 10,
+                        "degree": 1,
+                        "minute": 25,
+                        "second": 52,
+                        "formatted": "1°25'52\" Acquario"
+                    }
+                }
+            }
+        },
+        "novembre 2025": {
+            "1/11": {
+                "Sole": {
+                    "longitude": "218.32",
+                    "zodiac": {
+                        "sign": "Scorpione",
+                        "signIndex": 7,
+                        "degree": 8,
+                        "minute": 19,
+                        "second": 18,
+                        "formatted": "8°19'18\" Scorpione"
+                    }
+                },
+                "Luna": {
+                    "longitude": "330.13",
+                    "zodiac": {
+                        "sign": "Pesci",
+                        "signIndex": 11,
+                        "degree": 0,
+                        "minute": 7,
+                        "second": 46,
+                        "formatted": "0°7'46\" Pesci"
+                    }
+                },
+                "Mercurio": {
+                    "longitude": "241.97",
+                    "zodiac": {
+                        "sign": "Sagittario",
+                        "signIndex": 8,
+                        "degree": 1,
+                        "minute": 58,
+                        "second": 19,
+                        "formatted": "1°58'19\" Sagittario"
+                    }
+                },
+                "Venere": {
+                    "longitude": "201.94",
+                    "zodiac": {
+                        "sign": "Bilancia",
+                        "signIndex": 6,
+                        "degree": 21,
+                        "minute": 56,
+                        "second": 21,
+                        "formatted": "21°56'21\" Bilancia"
+                    }
+                },
+                "Marte": {
+                    "longitude": "237.11",
+                    "zodiac": {
+                        "sign": "Scorpione",
+                        "signIndex": 7,
+                        "degree": 27,
+                        "minute": 6,
+                        "second": 45,
+                        "formatted": "27°6'45\" Scorpione"
+                    }
+                },
+                "Giove": {
+                    "longitude": "114.95",
+                    "zodiac": {
+                        "sign": "Cancro",
+                        "signIndex": 3,
+                        "degree": 24,
+                        "minute": 56,
+                        "second": 48,
+                        "formatted": "24°56'48\" Cancro"
+                    }
+                },
+                "Saturno": {
+                    "longitude": "355.82",
+                    "zodiac": {
+                        "sign": "Pesci",
+                        "signIndex": 11,
+                        "degree": 25,
+                        "minute": 49,
+                        "second": 8,
+                        "formatted": "25°49'8\" Pesci"
+                    }
+                },
+                "Urano": {
+                    "longitude": "60.30",
+                    "zodiac": {
+                        "sign": "Gemelli",
+                        "signIndex": 2,
+                        "degree": 0,
+                        "minute": 17,
+                        "second": 48,
+                        "formatted": "0°17'48\" Gemelli"
+                    }
+                },
+                "Nettuno": {
+                    "longitude": "359.80",
+                    "zodiac": {
+                        "sign": "Pesci",
+                        "signIndex": 11,
+                        "degree": 29,
+                        "minute": 48,
+                        "second": 7,
+                        "formatted": "29°48'7\" Pesci"
+                    }
+                },
+                "Plutone": {
+                    "longitude": "301.44",
+                    "zodiac": {
+                        "sign": "Acquario",
+                        "signIndex": 10,
+                        "degree": 1,
+                        "minute": 26,
+                        "second": 21,
+                        "formatted": "1°26'21\" Acquario"
+                    }
+                }
+            },
+            "15/11": {
+                "Sole": {
+                    "longitude": "232.37",
+                    "zodiac": {
+                        "sign": "Scorpione",
+                        "signIndex": 7,
+                        "degree": 22,
+                        "minute": 22,
+                        "second": 1,
+                        "formatted": "22°22'1\" Scorpione"
+                    }
+                },
+                "Luna": {
+                    "longitude": "168.91",
+                    "zodiac": {
+                        "sign": "Vergine",
+                        "signIndex": 5,
+                        "degree": 18,
+                        "minute": 54,
+                        "second": 37,
+                        "formatted": "18°54'37\" Vergine"
+                    }
+                },
+                "Mercurio": {
+                    "longitude": "245.09",
+                    "zodiac": {
+                        "sign": "Sagittario",
+                        "signIndex": 8,
+                        "degree": 5,
+                        "minute": 5,
+                        "second": 24,
+                        "formatted": "5°5'24\" Sagittario"
+                    }
+                },
+                "Venere": {
+                    "longitude": "219.47",
+                    "zodiac": {
+                        "sign": "Scorpione",
+                        "signIndex": 7,
+                        "degree": 9,
+                        "minute": 28,
+                        "second": 12,
+                        "formatted": "9°28'12\" Scorpione"
+                    }
+                },
+                "Marte": {
+                    "longitude": "247.18",
+                    "zodiac": {
+                        "sign": "Sagittario",
+                        "signIndex": 8,
+                        "degree": 7,
+                        "minute": 10,
+                        "second": 53,
+                        "formatted": "7°10'53\" Sagittario"
+                    }
+                },
+                "Giove": {
+                    "longitude": "115.14",
+                    "zodiac": {
+                        "sign": "Cancro",
+                        "signIndex": 3,
+                        "degree": 25,
+                        "minute": 8,
+                        "second": 21,
+                        "formatted": "25°8'21\" Cancro"
+                    }
+                },
+                "Saturno": {
+                    "longitude": "355.32",
+                    "zodiac": {
+                        "sign": "Pesci",
+                        "signIndex": 11,
+                        "degree": 25,
+                        "minute": 19,
+                        "second": 24,
+                        "formatted": "25°19'24\" Pesci"
+                    }
+                },
+                "Urano": {
+                    "longitude": "59.74",
+                    "zodiac": {
+                        "sign": "Toro",
+                        "signIndex": 1,
+                        "degree": 29,
+                        "minute": 44,
+                        "second": 18,
+                        "formatted": "29°44'18\" Toro"
+                    }
+                },
+                "Nettuno": {
+                    "longitude": "359.56",
+                    "zodiac": {
+                        "sign": "Pesci",
+                        "signIndex": 11,
+                        "degree": 29,
+                        "minute": 33,
+                        "second": 38,
+                        "formatted": "29°33'38\" Pesci"
+                    }
+                },
+                "Plutone": {
+                    "longitude": "301.60",
+                    "zodiac": {
+                        "sign": "Acquario",
+                        "signIndex": 10,
+                        "degree": 1,
+                        "minute": 36,
+                        "second": 5,
+                        "formatted": "1°36'5\" Acquario"
+                    }
+                }
+            },
+            "30/11": {
+                "Sole": {
+                    "longitude": "247.52",
+                    "zodiac": {
+                        "sign": "Sagittario",
+                        "signIndex": 8,
+                        "degree": 7,
+                        "minute": 31,
+                        "second": 13,
+                        "formatted": "7°31'13\" Sagittario"
+                    }
+                },
+                "Luna": {
+                    "longitude": "352.48",
+                    "zodiac": {
+                        "sign": "Pesci",
+                        "signIndex": 11,
+                        "degree": 22,
+                        "minute": 28,
+                        "second": 34,
+                        "formatted": "22°28'34\" Pesci"
+                    }
+                },
+                "Mercurio": {
+                    "longitude": "230.71",
+                    "zodiac": {
+                        "sign": "Scorpione",
+                        "signIndex": 7,
+                        "degree": 20,
+                        "minute": 42,
+                        "second": 42,
+                        "formatted": "20°42'42\" Scorpione"
+                    }
+                },
+                "Venere": {
+                    "longitude": "238.31",
+                    "zodiac": {
+                        "sign": "Scorpione",
+                        "signIndex": 7,
+                        "degree": 28,
+                        "minute": 18,
+                        "second": 42,
+                        "formatted": "28°18'42\" Scorpione"
+                    }
+                },
+                "Marte": {
+                    "longitude": "258.18",
+                    "zodiac": {
+                        "sign": "Sagittario",
+                        "signIndex": 8,
+                        "degree": 18,
+                        "minute": 10,
+                        "second": 59,
+                        "formatted": "18°10'59\" Sagittario"
+                    }
+                },
+                "Giove": {
+                    "longitude": "114.63",
+                    "zodiac": {
+                        "sign": "Cancro",
+                        "signIndex": 3,
+                        "degree": 24,
+                        "minute": 37,
+                        "second": 32,
+                        "formatted": "24°37'32\" Cancro"
+                    }
+                },
+                "Saturno": {
+                    "longitude": "355.16",
+                    "zodiac": {
+                        "sign": "Pesci",
+                        "signIndex": 11,
+                        "degree": 25,
+                        "minute": 9,
+                        "second": 32,
+                        "formatted": "25°9'32\" Pesci"
+                    }
+                },
+                "Urano": {
+                    "longitude": "59.11",
+                    "zodiac": {
+                        "sign": "Toro",
+                        "signIndex": 1,
+                        "degree": 29,
+                        "minute": 6,
+                        "second": 46,
+                        "formatted": "29°6'46\" Toro"
+                    }
+                },
+                "Nettuno": {
+                    "longitude": "359.41",
+                    "zodiac": {
+                        "sign": "Pesci",
+                        "signIndex": 11,
+                        "degree": 29,
+                        "minute": 24,
+                        "second": 24,
+                        "formatted": "29°24'24\" Pesci"
+                    }
+                },
+                "Plutone": {
+                    "longitude": "301.87",
+                    "zodiac": {
+                        "sign": "Acquario",
+                        "signIndex": 10,
+                        "degree": 1,
+                        "minute": 52,
+                        "second": 14,
+                        "formatted": "1°52'14\" Acquario"
+                    }
+                }
+            }
+        },
+        "dicembre 2025": {
+            "1/12": {
+                "Sole": {
+                    "longitude": "248.53",
+                    "zodiac": {
+                        "sign": "Sagittario",
+                        "signIndex": 8,
+                        "degree": 8,
+                        "minute": 31,
+                        "second": 59,
+                        "formatted": "8°31'59\" Sagittario"
+                    }
+                },
+                "Luna": {
+                    "longitude": "6.35",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 6,
+                        "minute": 20,
+                        "second": 50,
+                        "formatted": "6°20'50\" Ariete"
+                    }
+                },
+                "Mercurio": {
+                    "longitude": "230.76",
+                    "zodiac": {
+                        "sign": "Scorpione",
+                        "signIndex": 7,
+                        "degree": 20,
+                        "minute": 45,
+                        "second": 29,
+                        "formatted": "20°45'29\" Scorpione"
+                    }
+                },
+                "Venere": {
+                    "longitude": "239.57",
+                    "zodiac": {
+                        "sign": "Scorpione",
+                        "signIndex": 7,
+                        "degree": 29,
+                        "minute": 34,
+                        "second": 8,
+                        "formatted": "29°34'8\" Scorpione"
+                    }
+                },
+                "Marte": {
+                    "longitude": "258.92",
+                    "zodiac": {
+                        "sign": "Sagittario",
+                        "signIndex": 8,
+                        "degree": 18,
+                        "minute": 55,
+                        "second": 26,
+                        "formatted": "18°55'26\" Sagittario"
+                    }
+                },
+                "Giove": {
+                    "longitude": "114.57",
+                    "zodiac": {
+                        "sign": "Cancro",
+                        "signIndex": 3,
+                        "degree": 24,
+                        "minute": 33,
+                        "second": 56,
+                        "formatted": "24°33'56\" Cancro"
+                    }
+                },
+                "Saturno": {
+                    "longitude": "355.16",
+                    "zodiac": {
+                        "sign": "Pesci",
+                        "signIndex": 11,
+                        "degree": 25,
+                        "minute": 9,
+                        "second": 44,
+                        "formatted": "25°9'44\" Pesci"
+                    }
+                },
+                "Urano": {
+                    "longitude": "59.07",
+                    "zodiac": {
+                        "sign": "Toro",
+                        "signIndex": 1,
+                        "degree": 29,
+                        "minute": 4,
+                        "second": 18,
+                        "formatted": "29°4'18\" Toro"
+                    }
+                },
+                "Nettuno": {
+                    "longitude": "359.40",
+                    "zodiac": {
+                        "sign": "Pesci",
+                        "signIndex": 11,
+                        "degree": 29,
+                        "minute": 24,
+                        "second": 3,
+                        "formatted": "29°24'3\" Pesci"
+                    }
+                },
+                "Plutone": {
+                    "longitude": "301.89",
+                    "zodiac": {
+                        "sign": "Acquario",
+                        "signIndex": 10,
+                        "degree": 1,
+                        "minute": 53,
+                        "second": 30,
+                        "formatted": "1°53'30\" Acquario"
+                    }
+                }
+            },
+            "15/12": {
+                "Sole": {
+                    "longitude": "262.74",
+                    "zodiac": {
+                        "sign": "Sagittario",
+                        "signIndex": 8,
+                        "degree": 22,
+                        "minute": 44,
+                        "second": 39,
+                        "formatted": "22°44'39\" Sagittario"
+                    }
+                },
+                "Luna": {
+                    "longitude": "202.14",
+                    "zodiac": {
+                        "sign": "Bilancia",
+                        "signIndex": 6,
+                        "degree": 22,
+                        "minute": 8,
+                        "second": 8,
+                        "formatted": "22°8'8\" Bilancia"
+                    }
+                },
+                "Mercurio": {
+                    "longitude": "243.26",
+                    "zodiac": {
+                        "sign": "Sagittario",
+                        "signIndex": 8,
+                        "degree": 3,
+                        "minute": 15,
+                        "second": 45,
+                        "formatted": "3°15'45\" Sagittario"
+                    }
+                },
+                "Venere": {
+                    "longitude": "257.18",
+                    "zodiac": {
+                        "sign": "Sagittario",
+                        "signIndex": 8,
+                        "degree": 17,
+                        "minute": 10,
+                        "second": 46,
+                        "formatted": "17°10'46\" Sagittario"
+                    }
+                },
+                "Marte": {
+                    "longitude": "269.39",
+                    "zodiac": {
+                        "sign": "Sagittario",
+                        "signIndex": 8,
+                        "degree": 29,
+                        "minute": 23,
+                        "second": 8,
+                        "formatted": "29°23'8\" Sagittario"
+                    }
+                },
+                "Giove": {
+                    "longitude": "113.42",
+                    "zodiac": {
+                        "sign": "Cancro",
+                        "signIndex": 3,
+                        "degree": 23,
+                        "minute": 25,
+                        "second": 11,
+                        "formatted": "23°25'11\" Cancro"
+                    }
+                },
+                "Saturno": {
+                    "longitude": "355.40",
+                    "zodiac": {
+                        "sign": "Pesci",
+                        "signIndex": 11,
+                        "degree": 25,
+                        "minute": 23,
+                        "second": 48,
+                        "formatted": "25°23'48\" Pesci"
+                    }
+                },
+                "Urano": {
+                    "longitude": "58.52",
+                    "zodiac": {
+                        "sign": "Toro",
+                        "signIndex": 1,
+                        "degree": 28,
+                        "minute": 31,
+                        "second": 14,
+                        "formatted": "28°31'14\" Toro"
+                    }
+                },
+                "Nettuno": {
+                    "longitude": "359.38",
+                    "zodiac": {
+                        "sign": "Pesci",
+                        "signIndex": 11,
+                        "degree": 29,
+                        "minute": 22,
+                        "second": 37,
+                        "formatted": "29°22'37\" Pesci"
+                    }
+                },
+                "Plutone": {
+                    "longitude": "302.22",
+                    "zodiac": {
+                        "sign": "Acquario",
+                        "signIndex": 10,
+                        "degree": 2,
+                        "minute": 13,
+                        "second": 27,
+                        "formatted": "2°13'27\" Acquario"
+                    }
+                }
+            },
+            "31/12": {
+                "Sole": {
+                    "longitude": "279.04",
+                    "zodiac": {
+                        "sign": "Capricorno",
+                        "signIndex": 9,
+                        "degree": 9,
+                        "minute": 2,
+                        "second": 24,
+                        "formatted": "9°2'24\" Capricorno"
+                    }
+                },
+                "Luna": {
+                    "longitude": "44.48",
+                    "zodiac": {
+                        "sign": "Toro",
+                        "signIndex": 1,
+                        "degree": 14,
+                        "minute": 28,
+                        "second": 37,
+                        "formatted": "14°28'37\" Toro"
+                    }
+                },
+                "Mercurio": {
+                    "longitude": "266.37",
+                    "zodiac": {
+                        "sign": "Sagittario",
+                        "signIndex": 8,
+                        "degree": 26,
+                        "minute": 22,
+                        "second": 12,
+                        "formatted": "26°22'12\" Sagittario"
+                    }
+                },
+                "Venere": {
+                    "longitude": "277.32",
+                    "zodiac": {
+                        "sign": "Capricorno",
+                        "signIndex": 9,
+                        "degree": 7,
+                        "minute": 19,
+                        "second": 8,
+                        "formatted": "7°19'8\" Capricorno"
+                    }
+                },
+                "Marte": {
+                    "longitude": "281.54",
+                    "zodiac": {
+                        "sign": "Capricorno",
+                        "signIndex": 9,
+                        "degree": 11,
+                        "minute": 32,
+                        "second": 21,
+                        "formatted": "11°32'21\" Capricorno"
+                    }
+                },
+                "Giove": {
+                    "longitude": "111.55",
+                    "zodiac": {
+                        "sign": "Cancro",
+                        "signIndex": 3,
+                        "degree": 21,
+                        "minute": 33,
+                        "second": 8,
+                        "formatted": "21°33'8\" Cancro"
+                    }
+                },
+                "Saturno": {
+                    "longitude": "356.08",
+                    "zodiac": {
+                        "sign": "Pesci",
+                        "signIndex": 11,
+                        "degree": 26,
+                        "minute": 4,
+                        "second": 53,
+                        "formatted": "26°4'53\" Pesci"
+                    }
+                },
+                "Urano": {
+                    "longitude": "57.99",
+                    "zodiac": {
+                        "sign": "Toro",
+                        "signIndex": 1,
+                        "degree": 27,
+                        "minute": 59,
+                        "second": 28,
+                        "formatted": "27°59'28\" Toro"
+                    }
+                },
+                "Nettuno": {
+                    "longitude": "359.49",
+                    "zodiac": {
+                        "sign": "Pesci",
+                        "signIndex": 11,
+                        "degree": 29,
+                        "minute": 29,
+                        "second": 19,
+                        "formatted": "29°29'19\" Pesci"
+                    }
+                },
+                "Plutone": {
+                    "longitude": "302.67",
+                    "zodiac": {
+                        "sign": "Acquario",
+                        "signIndex": 10,
+                        "degree": 2,
+                        "minute": 40,
+                        "second": 25,
+                        "formatted": "2°40'25\" Acquario"
+                    }
+                }
+            }
+        },
+        "gennaio 2026": {
+            "1/1": {
+                "Sole": {
+                    "longitude": "280.06",
+                    "zodiac": {
+                        "sign": "Capricorno",
+                        "signIndex": 9,
+                        "degree": 10,
+                        "minute": 3,
+                        "second": 32,
+                        "formatted": "10°3'32\" Capricorno"
+                    }
+                },
+                "Luna": {
+                    "longitude": "59.24",
+                    "zodiac": {
+                        "sign": "Toro",
+                        "signIndex": 1,
+                        "degree": 29,
+                        "minute": 14,
+                        "second": 36,
+                        "formatted": "29°14'36\" Toro"
+                    }
+                },
+                "Mercurio": {
+                    "longitude": "267.89",
+                    "zodiac": {
+                        "sign": "Sagittario",
+                        "signIndex": 8,
+                        "degree": 27,
+                        "minute": 53,
+                        "second": 22,
+                        "formatted": "27°53'22\" Sagittario"
+                    }
+                },
+                "Venere": {
+                    "longitude": "278.58",
+                    "zodiac": {
+                        "sign": "Capricorno",
+                        "signIndex": 9,
+                        "degree": 8,
+                        "minute": 34,
+                        "second": 38,
+                        "formatted": "8°34'38\" Capricorno"
+                    }
+                },
+                "Marte": {
+                    "longitude": "282.31",
+                    "zodiac": {
+                        "sign": "Capricorno",
+                        "signIndex": 9,
+                        "degree": 12,
+                        "minute": 18,
+                        "second": 18,
+                        "formatted": "12°18'18\" Capricorno"
+                    }
+                },
+                "Giove": {
+                    "longitude": "111.42",
+                    "zodiac": {
+                        "sign": "Cancro",
+                        "signIndex": 3,
+                        "degree": 21,
+                        "minute": 25,
+                        "second": 21,
+                        "formatted": "21°25'21\" Cancro"
+                    }
+                },
+                "Saturno": {
+                    "longitude": "356.14",
+                    "zodiac": {
+                        "sign": "Pesci",
+                        "signIndex": 11,
+                        "degree": 26,
+                        "minute": 8,
+                        "second": 17,
+                        "formatted": "26°8'17\" Pesci"
+                    }
+                },
+                "Urano": {
+                    "longitude": "57.96",
+                    "zodiac": {
+                        "sign": "Toro",
+                        "signIndex": 1,
+                        "degree": 27,
+                        "minute": 57,
+                        "second": 47,
+                        "formatted": "27°57'47\" Toro"
+                    }
+                },
+                "Nettuno": {
+                    "longitude": "359.50",
+                    "zodiac": {
+                        "sign": "Pesci",
+                        "signIndex": 11,
+                        "degree": 29,
+                        "minute": 30,
+                        "second": 2,
+                        "formatted": "29°30'2\" Pesci"
+                    }
+                },
+                "Plutone": {
+                    "longitude": "302.70",
+                    "zodiac": {
+                        "sign": "Acquario",
+                        "signIndex": 10,
+                        "degree": 2,
+                        "minute": 42,
+                        "second": 12,
+                        "formatted": "2°42'12\" Acquario"
+                    }
+                }
+            },
+            "15/1": {
+                "Sole": {
+                    "longitude": "294.32",
+                    "zodiac": {
+                        "sign": "Capricorno",
+                        "signIndex": 9,
+                        "degree": 24,
+                        "minute": 19,
+                        "second": 24,
+                        "formatted": "24°19'24\" Capricorno"
+                    }
+                },
+                "Luna": {
+                    "longitude": "246.15",
+                    "zodiac": {
+                        "sign": "Sagittario",
+                        "signIndex": 8,
+                        "degree": 6,
+                        "minute": 8,
+                        "second": 52,
+                        "formatted": "6°8'52\" Sagittario"
+                    }
+                },
+                "Mercurio": {
+                    "longitude": "289.82",
+                    "zodiac": {
+                        "sign": "Capricorno",
+                        "signIndex": 9,
+                        "degree": 19,
+                        "minute": 49,
+                        "second": 16,
+                        "formatted": "19°49'16\" Capricorno"
+                    }
+                },
+                "Venere": {
+                    "longitude": "296.19",
+                    "zodiac": {
+                        "sign": "Capricorno",
+                        "signIndex": 9,
+                        "degree": 26,
+                        "minute": 11,
+                        "second": 21,
+                        "formatted": "26°11'21\" Capricorno"
+                    }
+                },
+                "Marte": {
+                    "longitude": "293.09",
+                    "zodiac": {
+                        "sign": "Capricorno",
+                        "signIndex": 9,
+                        "degree": 23,
+                        "minute": 5,
+                        "second": 33,
+                        "formatted": "23°5'33\" Capricorno"
+                    }
+                },
+                "Giove": {
+                    "longitude": "109.55",
+                    "zodiac": {
+                        "sign": "Cancro",
+                        "signIndex": 3,
+                        "degree": 19,
+                        "minute": 33,
+                        "second": 2,
+                        "formatted": "19°33'2\" Cancro"
+                    }
+                },
+                "Saturno": {
+                    "longitude": "357.09",
+                    "zodiac": {
+                        "sign": "Pesci",
+                        "signIndex": 11,
+                        "degree": 27,
+                        "minute": 5,
+                        "second": 20,
+                        "formatted": "27°5'20\" Pesci"
+                    }
+                },
+                "Urano": {
+                    "longitude": "57.64",
+                    "zodiac": {
+                        "sign": "Toro",
+                        "signIndex": 1,
+                        "degree": 27,
+                        "minute": 38,
+                        "second": 35,
+                        "formatted": "27°38'35\" Toro"
+                    }
+                },
+                "Nettuno": {
+                    "longitude": "359.72",
+                    "zodiac": {
+                        "sign": "Pesci",
+                        "signIndex": 11,
+                        "degree": 29,
+                        "minute": 43,
+                        "second": 25,
+                        "formatted": "29°43'25\" Pesci"
+                    }
+                },
+                "Plutone": {
+                    "longitude": "303.14",
+                    "zodiac": {
+                        "sign": "Acquario",
+                        "signIndex": 10,
+                        "degree": 3,
+                        "minute": 8,
+                        "second": 15,
+                        "formatted": "3°8'15\" Acquario"
+                    }
+                }
+            },
+            "31/1": {
+                "Sole": {
+                    "longitude": "310.60",
+                    "zodiac": {
+                        "sign": "Acquario",
+                        "signIndex": 10,
+                        "degree": 10,
+                        "minute": 36,
+                        "second": 8,
+                        "formatted": "10°36'8\" Acquario"
+                    }
+                },
+                "Luna": {
+                    "longitude": "98.18",
+                    "zodiac": {
+                        "sign": "Cancro",
+                        "signIndex": 3,
+                        "degree": 8,
+                        "minute": 11,
+                        "second": 2,
+                        "formatted": "8°11'2\" Cancro"
+                    }
+                },
+                "Mercurio": {
+                    "longitude": "316.83",
+                    "zodiac": {
+                        "sign": "Acquario",
+                        "signIndex": 10,
+                        "degree": 16,
+                        "minute": 49,
+                        "second": 47,
+                        "formatted": "16°49'47\" Acquario"
+                    }
+                },
+                "Venere": {
+                    "longitude": "316.30",
+                    "zodiac": {
+                        "sign": "Acquario",
+                        "signIndex": 10,
+                        "degree": 16,
+                        "minute": 17,
+                        "second": 42,
+                        "formatted": "16°17'42\" Acquario"
+                    }
+                },
+                "Marte": {
+                    "longitude": "305.55",
+                    "zodiac": {
+                        "sign": "Acquario",
+                        "signIndex": 10,
+                        "degree": 5,
+                        "minute": 33,
+                        "second": 14,
+                        "formatted": "5°33'14\" Acquario"
+                    }
+                },
+                "Giove": {
+                    "longitude": "107.53",
+                    "zodiac": {
+                        "sign": "Cancro",
+                        "signIndex": 3,
+                        "degree": 17,
+                        "minute": 31,
+                        "second": 47,
+                        "formatted": "17°31'47\" Cancro"
+                    }
+                },
+                "Saturno": {
+                    "longitude": "358.49",
+                    "zodiac": {
+                        "sign": "Pesci",
+                        "signIndex": 11,
+                        "degree": 28,
+                        "minute": 29,
+                        "second": 38,
+                        "formatted": "28°29'38\" Pesci"
+                    }
+                },
+                "Urano": {
+                    "longitude": "57.47",
+                    "zodiac": {
+                        "sign": "Toro",
+                        "signIndex": 1,
+                        "degree": 27,
+                        "minute": 28,
+                        "second": 8,
+                        "formatted": "27°28'8\" Toro"
+                    }
+                },
+                "Nettuno": {
+                    "longitude": "0.10",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 0,
+                        "minute": 5,
+                        "second": 56,
+                        "formatted": "0°5'56\" Ariete"
+                    }
+                },
+                "Plutone": {
+                    "longitude": "303.65",
+                    "zodiac": {
+                        "sign": "Acquario",
+                        "signIndex": 10,
+                        "degree": 3,
+                        "minute": 38,
+                        "second": 57,
+                        "formatted": "3°38'57\" Acquario"
+                    }
+                }
+            }
+        },
+        "febbraio 2026": {
+            "1/2": {
+                "Sole": {
+                    "longitude": "311.62",
+                    "zodiac": {
+                        "sign": "Acquario",
+                        "signIndex": 10,
+                        "degree": 11,
+                        "minute": 37,
+                        "second": 2,
+                        "formatted": "11°37'2\" Acquario"
+                    }
+                },
+                "Luna": {
+                    "longitude": "112.71",
+                    "zodiac": {
+                        "sign": "Cancro",
+                        "signIndex": 3,
+                        "degree": 22,
+                        "minute": 42,
+                        "second": 20,
+                        "formatted": "22°42'20\" Cancro"
+                    }
+                },
+                "Mercurio": {
+                    "longitude": "318.59",
+                    "zodiac": {
+                        "sign": "Acquario",
+                        "signIndex": 10,
+                        "degree": 18,
+                        "minute": 35,
+                        "second": 27,
+                        "formatted": "18°35'27\" Acquario"
+                    }
+                },
+                "Venere": {
+                    "longitude": "317.55",
+                    "zodiac": {
+                        "sign": "Acquario",
+                        "signIndex": 10,
+                        "degree": 17,
+                        "minute": 33,
+                        "second": 0,
+                        "formatted": "17°33'0\" Acquario"
+                    }
+                },
+                "Marte": {
+                    "longitude": "306.34",
+                    "zodiac": {
+                        "sign": "Acquario",
+                        "signIndex": 10,
+                        "degree": 6,
+                        "minute": 20,
+                        "second": 11,
+                        "formatted": "6°20'11\" Acquario"
+                    }
+                },
+                "Giove": {
+                    "longitude": "107.42",
+                    "zodiac": {
+                        "sign": "Cancro",
+                        "signIndex": 3,
+                        "degree": 17,
+                        "minute": 24,
+                        "second": 59,
+                        "formatted": "17°24'59\" Cancro"
+                    }
+                },
+                "Saturno": {
+                    "longitude": "358.59",
+                    "zodiac": {
+                        "sign": "Pesci",
+                        "signIndex": 11,
+                        "degree": 28,
+                        "minute": 35,
+                        "second": 29,
+                        "formatted": "28°35'29\" Pesci"
+                    }
+                },
+                "Urano": {
+                    "longitude": "57.47",
+                    "zodiac": {
+                        "sign": "Toro",
+                        "signIndex": 1,
+                        "degree": 27,
+                        "minute": 27,
+                        "second": 55,
+                        "formatted": "27°27'55\" Toro"
+                    }
+                },
+                "Nettuno": {
+                    "longitude": "0.13",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 0,
+                        "minute": 7,
+                        "second": 34,
+                        "formatted": "0°7'34\" Ariete"
+                    }
+                },
+                "Plutone": {
+                    "longitude": "303.68",
+                    "zodiac": {
+                        "sign": "Acquario",
+                        "signIndex": 10,
+                        "degree": 3,
+                        "minute": 40,
+                        "second": 51,
+                        "formatted": "3°40'51\" Acquario"
+                    }
+                }
+            },
+            "15/2": {
+                "Sole": {
+                    "longitude": "325.80",
+                    "zodiac": {
+                        "sign": "Acquario",
+                        "signIndex": 10,
+                        "degree": 25,
+                        "minute": 47,
+                        "second": 50,
+                        "formatted": "25°47'50\" Acquario"
+                    }
+                },
+                "Luna": {
+                    "longitude": "290.49",
+                    "zodiac": {
+                        "sign": "Capricorno",
+                        "signIndex": 9,
+                        "degree": 20,
+                        "minute": 29,
+                        "second": 27,
+                        "formatted": "20°29'27\" Capricorno"
+                    }
+                },
+                "Mercurio": {
+                    "longitude": "342.53",
+                    "zodiac": {
+                        "sign": "Pesci",
+                        "signIndex": 11,
+                        "degree": 12,
+                        "minute": 31,
+                        "second": 36,
+                        "formatted": "12°31'36\" Pesci"
+                    }
+                },
+                "Venere": {
+                    "longitude": "335.10",
+                    "zodiac": {
+                        "sign": "Pesci",
+                        "signIndex": 11,
+                        "degree": 5,
+                        "minute": 5,
+                        "second": 51,
+                        "formatted": "5°5'51\" Pesci"
+                    }
+                },
+                "Marte": {
+                    "longitude": "317.32",
+                    "zodiac": {
+                        "sign": "Acquario",
+                        "signIndex": 10,
+                        "degree": 17,
+                        "minute": 19,
+                        "second": 24,
+                        "formatted": "17°19'24\" Acquario"
+                    }
+                },
+                "Giove": {
+                    "longitude": "106.07",
+                    "zodiac": {
+                        "sign": "Cancro",
+                        "signIndex": 3,
+                        "degree": 16,
+                        "minute": 4,
+                        "second": 5,
+                        "formatted": "16°4'5\" Cancro"
+                    }
+                },
+                "Saturno": {
+                    "longitude": "0.05",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 0,
+                        "minute": 3,
+                        "second": 15,
+                        "formatted": "0°3'15\" Ariete"
+                    }
+                },
+                "Urano": {
+                    "longitude": "57.51",
+                    "zodiac": {
+                        "sign": "Toro",
+                        "signIndex": 1,
+                        "degree": 27,
+                        "minute": 30,
+                        "second": 27,
+                        "formatted": "27°30'27\" Toro"
+                    }
+                },
+                "Nettuno": {
+                    "longitude": "0.55",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 0,
+                        "minute": 32,
+                        "second": 47,
+                        "formatted": "0°32'47\" Ariete"
+                    }
+                },
+                "Plutone": {
+                    "longitude": "304.12",
+                    "zodiac": {
+                        "sign": "Acquario",
+                        "signIndex": 10,
+                        "degree": 4,
+                        "minute": 7,
+                        "second": 0,
+                        "formatted": "4°7'0\" Acquario"
+                    }
+                }
+            },
+            "28/2": {
+                "Sole": {
+                    "longitude": "338.90",
+                    "zodiac": {
+                        "sign": "Pesci",
+                        "signIndex": 11,
+                        "degree": 8,
+                        "minute": 53,
+                        "second": 59,
+                        "formatted": "8°53'59\" Pesci"
+                    }
+                },
+                "Luna": {
+                    "longitude": "108.15",
+                    "zodiac": {
+                        "sign": "Cancro",
+                        "signIndex": 3,
+                        "degree": 18,
+                        "minute": 8,
+                        "second": 54,
+                        "formatted": "18°8'54\" Cancro"
+                    }
+                },
+                "Mercurio": {
+                    "longitude": "352.44",
+                    "zodiac": {
+                        "sign": "Pesci",
+                        "signIndex": 11,
+                        "degree": 22,
+                        "minute": 26,
+                        "second": 40,
+                        "formatted": "22°26'40\" Pesci"
+                    }
+                },
+                "Venere": {
+                    "longitude": "351.34",
+                    "zodiac": {
+                        "sign": "Pesci",
+                        "signIndex": 11,
+                        "degree": 21,
+                        "minute": 20,
+                        "second": 38,
+                        "formatted": "21°20'38\" Pesci"
+                    }
+                },
+                "Marte": {
+                    "longitude": "327.56",
+                    "zodiac": {
+                        "sign": "Acquario",
+                        "signIndex": 10,
+                        "degree": 27,
+                        "minute": 33,
+                        "second": 42,
+                        "formatted": "27°33'42\" Acquario"
+                    }
+                },
+                "Giove": {
+                    "longitude": "105.31",
+                    "zodiac": {
+                        "sign": "Cancro",
+                        "signIndex": 3,
+                        "degree": 15,
+                        "minute": 18,
+                        "second": 31,
+                        "formatted": "15°18'31\" Cancro"
+                    }
+                },
+                "Saturno": {
+                    "longitude": "1.55",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 1,
+                        "minute": 32,
+                        "second": 44,
+                        "formatted": "1°32'44\" Ariete"
+                    }
+                },
+                "Urano": {
+                    "longitude": "57.70",
+                    "zodiac": {
+                        "sign": "Toro",
+                        "signIndex": 1,
+                        "degree": 27,
+                        "minute": 42,
+                        "second": 2,
+                        "formatted": "27°42'2\" Toro"
+                    }
+                },
+                "Nettuno": {
+                    "longitude": "0.99",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 0,
+                        "minute": 59,
+                        "second": 25,
+                        "formatted": "0°59'25\" Ariete"
+                    }
+                },
+                "Plutone": {
+                    "longitude": "304.49",
+                    "zodiac": {
+                        "sign": "Acquario",
+                        "signIndex": 10,
+                        "degree": 4,
+                        "minute": 29,
+                        "second": 33,
+                        "formatted": "4°29'33\" Acquario"
+                    }
+                }
+            }
+        },
+        "marzo 2026": {
+            "1/3": {
+                "Sole": {
+                    "longitude": "339.90",
+                    "zodiac": {
+                        "sign": "Pesci",
+                        "signIndex": 11,
+                        "degree": 9,
+                        "minute": 54,
+                        "second": 14,
+                        "formatted": "9°54'14\" Pesci"
+                    }
+                },
+                "Luna": {
+                    "longitude": "122.16",
+                    "zodiac": {
+                        "sign": "Leone",
+                        "signIndex": 4,
+                        "degree": 2,
+                        "minute": 9,
+                        "second": 52,
+                        "formatted": "2°9'52\" Leone"
+                    }
+                },
+                "Mercurio": {
+                    "longitude": "352.17",
+                    "zodiac": {
+                        "sign": "Pesci",
+                        "signIndex": 11,
+                        "degree": 22,
+                        "minute": 10,
+                        "second": 7,
+                        "formatted": "22°10'7\" Pesci"
+                    }
+                },
+                "Venere": {
+                    "longitude": "352.59",
+                    "zodiac": {
+                        "sign": "Pesci",
+                        "signIndex": 11,
+                        "degree": 22,
+                        "minute": 35,
+                        "second": 27,
+                        "formatted": "22°35'27\" Pesci"
+                    }
+                },
+                "Marte": {
+                    "longitude": "328.35",
+                    "zodiac": {
+                        "sign": "Acquario",
+                        "signIndex": 10,
+                        "degree": 28,
+                        "minute": 20,
+                        "second": 59,
+                        "formatted": "28°20'59\" Acquario"
+                    }
+                },
+                "Giove": {
+                    "longitude": "105.27",
+                    "zodiac": {
+                        "sign": "Cancro",
+                        "signIndex": 3,
+                        "degree": 15,
+                        "minute": 16,
+                        "second": 20,
+                        "formatted": "15°16'20\" Cancro"
+                    }
+                },
+                "Saturno": {
+                    "longitude": "1.66",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 1,
+                        "minute": 39,
+                        "second": 52,
+                        "formatted": "1°39'52\" Ariete"
+                    }
+                },
+                "Urano": {
+                    "longitude": "57.72",
+                    "zodiac": {
+                        "sign": "Toro",
+                        "signIndex": 1,
+                        "degree": 27,
+                        "minute": 43,
+                        "second": 17,
+                        "formatted": "27°43'17\" Toro"
+                    }
+                },
+                "Nettuno": {
+                    "longitude": "1.03",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 1,
+                        "minute": 1,
+                        "second": 33,
+                        "formatted": "1°1'33\" Ariete"
+                    }
+                },
+                "Plutone": {
+                    "longitude": "304.52",
+                    "zodiac": {
+                        "sign": "Acquario",
+                        "signIndex": 10,
+                        "degree": 4,
+                        "minute": 31,
+                        "second": 11,
+                        "formatted": "4°31'11\" Acquario"
+                    }
+                }
+            },
+            "15/3": {
+                "Sole": {
+                    "longitude": "353.91",
+                    "zodiac": {
+                        "sign": "Pesci",
+                        "signIndex": 11,
+                        "degree": 23,
+                        "minute": 54,
+                        "second": 40,
+                        "formatted": "23°54'40\" Pesci"
+                    }
+                },
+                "Luna": {
+                    "longitude": "298.33",
+                    "zodiac": {
+                        "sign": "Capricorno",
+                        "signIndex": 9,
+                        "degree": 28,
+                        "minute": 19,
+                        "second": 35,
+                        "formatted": "28°19'35\" Capricorno"
+                    }
+                },
+                "Mercurio": {
+                    "longitude": "340.55",
+                    "zodiac": {
+                        "sign": "Pesci",
+                        "signIndex": 11,
+                        "degree": 10,
+                        "minute": 33,
+                        "second": 4,
+                        "formatted": "10°33'4\" Pesci"
+                    }
+                },
+                "Venere": {
+                    "longitude": "10.01",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 10,
+                        "minute": 0,
+                        "second": 18,
+                        "formatted": "10°0'18\" Ariete"
+                    }
+                },
+                "Marte": {
+                    "longitude": "339.38",
+                    "zodiac": {
+                        "sign": "Pesci",
+                        "signIndex": 11,
+                        "degree": 9,
+                        "minute": 22,
+                        "second": 41,
+                        "formatted": "9°22'41\" Pesci"
+                    }
+                },
+                "Giove": {
+                    "longitude": "105.11",
+                    "zodiac": {
+                        "sign": "Cancro",
+                        "signIndex": 3,
+                        "degree": 15,
+                        "minute": 6,
+                        "second": 20,
+                        "formatted": "15°6'20\" Cancro"
+                    }
+                },
+                "Saturno": {
+                    "longitude": "3.37",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 3,
+                        "minute": 22,
+                        "second": 3,
+                        "formatted": "3°22'3\" Ariete"
+                    }
+                },
+                "Urano": {
+                    "longitude": "58.10",
+                    "zodiac": {
+                        "sign": "Toro",
+                        "signIndex": 1,
+                        "degree": 28,
+                        "minute": 5,
+                        "second": 44,
+                        "formatted": "28°5'44\" Toro"
+                    }
+                },
+                "Nettuno": {
+                    "longitude": "1.54",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 1,
+                        "minute": 32,
+                        "second": 32,
+                        "formatted": "1°32'32\" Ariete"
+                    }
+                },
+                "Plutone": {
+                    "longitude": "304.87",
+                    "zodiac": {
+                        "sign": "Acquario",
+                        "signIndex": 10,
+                        "degree": 4,
+                        "minute": 52,
+                        "second": 18,
+                        "formatted": "4°52'18\" Acquario"
+                    }
+                }
+            },
+            "31/3": {
+                "Sole": {
+                    "longitude": "9.79",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 9,
+                        "minute": 47,
+                        "second": 41,
+                        "formatted": "9°47'41\" Ariete"
+                    }
+                },
+                "Luna": {
+                    "longitude": "159.03",
+                    "zodiac": {
+                        "sign": "Vergine",
+                        "signIndex": 5,
+                        "degree": 9,
+                        "minute": 2,
+                        "second": 3,
+                        "formatted": "9°2'3\" Vergine"
+                    }
+                },
+                "Mercurio": {
+                    "longitude": "342.49",
+                    "zodiac": {
+                        "sign": "Pesci",
+                        "signIndex": 11,
+                        "degree": 12,
+                        "minute": 29,
+                        "second": 32,
+                        "formatted": "12°29'32\" Pesci"
+                    }
+                },
+                "Venere": {
+                    "longitude": "29.79",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 29,
+                        "minute": 47,
+                        "second": 38,
+                        "formatted": "29°47'38\" Ariete"
+                    }
+                },
+                "Marte": {
+                    "longitude": "351.94",
+                    "zodiac": {
+                        "sign": "Pesci",
+                        "signIndex": 11,
+                        "degree": 21,
+                        "minute": 56,
+                        "second": 38,
+                        "formatted": "21°56'38\" Pesci"
+                    }
+                },
+                "Giove": {
+                    "longitude": "105.69",
+                    "zodiac": {
+                        "sign": "Cancro",
+                        "signIndex": 3,
+                        "degree": 15,
+                        "minute": 41,
+                        "second": 10,
+                        "formatted": "15°41'10\" Cancro"
+                    }
+                },
+                "Saturno": {
+                    "longitude": "5.36",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 5,
+                        "minute": 21,
+                        "second": 39,
+                        "formatted": "5°21'39\" Ariete"
+                    }
+                },
+                "Urano": {
+                    "longitude": "58.70",
+                    "zodiac": {
+                        "sign": "Toro",
+                        "signIndex": 1,
+                        "degree": 28,
+                        "minute": 41,
+                        "second": 46,
+                        "formatted": "28°41'46\" Toro"
+                    }
+                },
+                "Nettuno": {
+                    "longitude": "2.15",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 2,
+                        "minute": 8,
+                        "second": 52,
+                        "formatted": "2°8'52\" Ariete"
+                    }
+                },
+                "Plutone": {
+                    "longitude": "305.19",
+                    "zodiac": {
+                        "sign": "Acquario",
+                        "signIndex": 10,
+                        "degree": 5,
+                        "minute": 11,
+                        "second": 29,
+                        "formatted": "5°11'29\" Acquario"
+                    }
+                }
+            }
+        },
+        "aprile 2026": {
+            "1/4": {
+                "Sole": {
+                    "longitude": "10.78",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 10,
+                        "minute": 46,
+                        "second": 56,
+                        "formatted": "10°46'56\" Ariete"
+                    }
+                },
+                "Luna": {
+                    "longitude": "172.05",
+                    "zodiac": {
+                        "sign": "Vergine",
+                        "signIndex": 5,
+                        "degree": 22,
+                        "minute": 2,
+                        "second": 57,
+                        "formatted": "22°2'57\" Vergine"
+                    }
+                },
+                "Mercurio": {
+                    "longitude": "343.28",
+                    "zodiac": {
+                        "sign": "Pesci",
+                        "signIndex": 11,
+                        "degree": 13,
+                        "minute": 16,
+                        "second": 53,
+                        "formatted": "13°16'53\" Pesci"
+                    }
+                },
+                "Venere": {
+                    "longitude": "31.03",
+                    "zodiac": {
+                        "sign": "Toro",
+                        "signIndex": 1,
+                        "degree": 1,
+                        "minute": 1,
+                        "second": 32,
+                        "formatted": "1°1'32\" Toro"
+                    }
+                },
+                "Marte": {
+                    "longitude": "352.73",
+                    "zodiac": {
+                        "sign": "Pesci",
+                        "signIndex": 11,
+                        "degree": 22,
+                        "minute": 43,
+                        "second": 36,
+                        "formatted": "22°43'36\" Pesci"
+                    }
+                },
+                "Giove": {
+                    "longitude": "105.75",
+                    "zodiac": {
+                        "sign": "Cancro",
+                        "signIndex": 3,
+                        "degree": 15,
+                        "minute": 44,
+                        "second": 54,
+                        "formatted": "15°44'54\" Cancro"
+                    }
+                },
+                "Saturno": {
+                    "longitude": "5.49",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 5,
+                        "minute": 29,
+                        "second": 7,
+                        "formatted": "5°29'7\" Ariete"
+                    }
+                },
+                "Urano": {
+                    "longitude": "58.74",
+                    "zodiac": {
+                        "sign": "Toro",
+                        "signIndex": 1,
+                        "degree": 28,
+                        "minute": 44,
+                        "second": 20,
+                        "formatted": "28°44'20\" Toro"
+                    }
+                },
+                "Nettuno": {
+                    "longitude": "2.19",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 2,
+                        "minute": 11,
+                        "second": 7,
+                        "formatted": "2°11'7\" Ariete"
+                    }
+                },
+                "Plutone": {
+                    "longitude": "305.21",
+                    "zodiac": {
+                        "sign": "Acquario",
+                        "signIndex": 10,
+                        "degree": 5,
+                        "minute": 12,
+                        "second": 29,
+                        "formatted": "5°12'29\" Acquario"
+                    }
+                }
+            },
+            "15/4": {
+                "Sole": {
+                    "longitude": "24.55",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 24,
+                        "minute": 33,
+                        "second": 2,
+                        "formatted": "24°33'2\" Ariete"
+                    }
+                },
+                "Luna": {
+                    "longitude": "345.01",
+                    "zodiac": {
+                        "sign": "Pesci",
+                        "signIndex": 11,
+                        "degree": 15,
+                        "minute": 0,
+                        "second": 52,
+                        "formatted": "15°0'52\" Pesci"
+                    }
+                },
+                "Mercurio": {
+                    "longitude": "359.11",
+                    "zodiac": {
+                        "sign": "Pesci",
+                        "signIndex": 11,
+                        "degree": 29,
+                        "minute": 6,
+                        "second": 22,
+                        "formatted": "29°6'22\" Pesci"
+                    }
+                },
+                "Venere": {
+                    "longitude": "48.21",
+                    "zodiac": {
+                        "sign": "Toro",
+                        "signIndex": 1,
+                        "degree": 18,
+                        "minute": 12,
+                        "second": 24,
+                        "formatted": "18°12'24\" Toro"
+                    }
+                },
+                "Marte": {
+                    "longitude": "3.64",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 3,
+                        "minute": 38,
+                        "second": 31,
+                        "formatted": "3°38'31\" Ariete"
+                    }
+                },
+                "Giove": {
+                    "longitude": "106.91",
+                    "zodiac": {
+                        "sign": "Cancro",
+                        "signIndex": 3,
+                        "degree": 16,
+                        "minute": 54,
+                        "second": 46,
+                        "formatted": "16°54'46\" Cancro"
+                    }
+                },
+                "Saturno": {
+                    "longitude": "7.21",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 7,
+                        "minute": 12,
+                        "second": 34,
+                        "formatted": "7°12'34\" Ariete"
+                    }
+                },
+                "Urano": {
+                    "longitude": "59.39",
+                    "zodiac": {
+                        "sign": "Toro",
+                        "signIndex": 1,
+                        "degree": 29,
+                        "minute": 23,
+                        "second": 41,
+                        "formatted": "29°23'41\" Toro"
+                    }
+                },
+                "Nettuno": {
+                    "longitude": "2.70",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 2,
+                        "minute": 42,
+                        "second": 1,
+                        "formatted": "2°42'1\" Ariete"
+                    }
+                },
+                "Plutone": {
+                    "longitude": "305.40",
+                    "zodiac": {
+                        "sign": "Acquario",
+                        "signIndex": 10,
+                        "degree": 5,
+                        "minute": 23,
+                        "second": 44,
+                        "formatted": "5°23'44\" Acquario"
+                    }
+                }
+            },
+            "30/4": {
+                "Sole": {
+                    "longitude": "39.19",
+                    "zodiac": {
+                        "sign": "Toro",
+                        "signIndex": 1,
+                        "degree": 9,
+                        "minute": 11,
+                        "second": 15,
+                        "formatted": "9°11'15\" Toro"
+                    }
+                },
+                "Luna": {
+                    "longitude": "194.06",
+                    "zodiac": {
+                        "sign": "Bilancia",
+                        "signIndex": 6,
+                        "degree": 14,
+                        "minute": 3,
+                        "second": 28,
+                        "formatted": "14°3'28\" Bilancia"
+                    }
+                },
+                "Mercurio": {
+                    "longitude": "23.21",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 23,
+                        "minute": 12,
+                        "second": 22,
+                        "formatted": "23°12'22\" Ariete"
+                    }
+                },
+                "Venere": {
+                    "longitude": "66.47",
+                    "zodiac": {
+                        "sign": "Gemelli",
+                        "signIndex": 2,
+                        "degree": 6,
+                        "minute": 28,
+                        "second": 17,
+                        "formatted": "6°28'17\" Gemelli"
+                    }
+                },
+                "Marte": {
+                    "longitude": "15.22",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 15,
+                        "minute": 13,
+                        "second": 24,
+                        "formatted": "15°13'24\" Ariete"
+                    }
+                },
+                "Giove": {
+                    "longitude": "108.71",
+                    "zodiac": {
+                        "sign": "Cancro",
+                        "signIndex": 3,
+                        "degree": 18,
+                        "minute": 42,
+                        "second": 27,
+                        "formatted": "18°42'27\" Cancro"
+                    }
+                },
+                "Saturno": {
+                    "longitude": "8.98",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 8,
+                        "minute": 58,
+                        "second": 35,
+                        "formatted": "8°58'35\" Ariete"
+                    }
+                },
+                "Urano": {
+                    "longitude": "60.19",
+                    "zodiac": {
+                        "sign": "Gemelli",
+                        "signIndex": 2,
+                        "degree": 0,
+                        "minute": 11,
+                        "second": 24,
+                        "formatted": "0°11'24\" Gemelli"
+                    }
+                },
+                "Nettuno": {
+                    "longitude": "3.21",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 3,
+                        "minute": 12,
+                        "second": 40,
+                        "formatted": "3°12'40\" Ariete"
+                    }
+                },
+                "Plutone": {
+                    "longitude": "305.50",
+                    "zodiac": {
+                        "sign": "Acquario",
+                        "signIndex": 10,
+                        "degree": 5,
+                        "minute": 29,
+                        "second": 51,
+                        "formatted": "5°29'51\" Acquario"
+                    }
+                }
+            }
+        },
+        "maggio 2026": {
+            "1/5": {
+                "Sole": {
+                    "longitude": "40.16",
+                    "zodiac": {
+                        "sign": "Toro",
+                        "signIndex": 1,
+                        "degree": 10,
+                        "minute": 9,
+                        "second": 31,
+                        "formatted": "10°9'31\" Toro"
+                    }
+                },
+                "Luna": {
+                    "longitude": "206.41",
+                    "zodiac": {
+                        "sign": "Bilancia",
+                        "signIndex": 6,
+                        "degree": 26,
+                        "minute": 24,
+                        "second": 30,
+                        "formatted": "26°24'30\" Bilancia"
+                    }
+                },
+                "Mercurio": {
+                    "longitude": "25.04",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 25,
+                        "minute": 2,
+                        "second": 35,
+                        "formatted": "25°2'35\" Ariete"
+                    }
+                },
+                "Venere": {
+                    "longitude": "67.68",
+                    "zodiac": {
+                        "sign": "Gemelli",
+                        "signIndex": 2,
+                        "degree": 7,
+                        "minute": 40,
+                        "second": 59,
+                        "formatted": "7°40'59\" Gemelli"
+                    }
+                },
+                "Marte": {
+                    "longitude": "15.99",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 15,
+                        "minute": 59,
+                        "second": 24,
+                        "formatted": "15°59'24\" Ariete"
+                    }
+                },
+                "Giove": {
+                    "longitude": "108.85",
+                    "zodiac": {
+                        "sign": "Cancro",
+                        "signIndex": 3,
+                        "degree": 18,
+                        "minute": 50,
+                        "second": 42,
+                        "formatted": "18°50'42\" Cancro"
+                    }
+                },
+                "Saturno": {
+                    "longitude": "9.09",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 9,
+                        "minute": 5,
+                        "second": 23,
+                        "formatted": "9°5'23\" Ariete"
+                    }
+                },
+                "Urano": {
+                    "longitude": "60.25",
+                    "zodiac": {
+                        "sign": "Gemelli",
+                        "signIndex": 2,
+                        "degree": 0,
+                        "minute": 14,
+                        "second": 44,
+                        "formatted": "0°14'44\" Gemelli"
+                    }
+                },
+                "Nettuno": {
+                    "longitude": "3.24",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 3,
+                        "minute": 14,
+                        "second": 35,
+                        "formatted": "3°14'35\" Ariete"
+                    }
+                },
+                "Plutone": {
+                    "longitude": "305.50",
+                    "zodiac": {
+                        "sign": "Acquario",
+                        "signIndex": 10,
+                        "degree": 5,
+                        "minute": 30,
+                        "second": 2,
+                        "formatted": "5°30'2\" Acquario"
+                    }
+                }
+            },
+            "15/5": {
+                "Sole": {
+                    "longitude": "53.71",
+                    "zodiac": {
+                        "sign": "Toro",
+                        "signIndex": 1,
+                        "degree": 23,
+                        "minute": 42,
+                        "second": 34,
+                        "formatted": "23°42'34\" Toro"
+                    }
+                },
+                "Luna": {
+                    "longitude": "21.16",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 21,
+                        "minute": 9,
+                        "second": 30,
+                        "formatted": "21°9'30\" Ariete"
+                    }
+                },
+                "Mercurio": {
+                    "longitude": "53.59",
+                    "zodiac": {
+                        "sign": "Toro",
+                        "signIndex": 1,
+                        "degree": 23,
+                        "minute": 35,
+                        "second": 15,
+                        "formatted": "23°35'15\" Toro"
+                    }
+                },
+                "Venere": {
+                    "longitude": "84.56",
+                    "zodiac": {
+                        "sign": "Gemelli",
+                        "signIndex": 2,
+                        "degree": 24,
+                        "minute": 33,
+                        "second": 25,
+                        "formatted": "24°33'25\" Gemelli"
+                    }
+                },
+                "Marte": {
+                    "longitude": "26.65",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 26,
+                        "minute": 39,
+                        "second": 12,
+                        "formatted": "26°39'12\" Ariete"
+                    }
+                },
+                "Giove": {
+                    "longitude": "110.97",
+                    "zodiac": {
+                        "sign": "Cancro",
+                        "signIndex": 3,
+                        "degree": 20,
+                        "minute": 58,
+                        "second": 4,
+                        "formatted": "20°58'4\" Cancro"
+                    }
+                },
+                "Saturno": {
+                    "longitude": "10.60",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 10,
+                        "minute": 36,
+                        "second": 8,
+                        "formatted": "10°36'8\" Ariete"
+                    }
+                },
+                "Urano": {
+                    "longitude": "61.04",
+                    "zodiac": {
+                        "sign": "Gemelli",
+                        "signIndex": 2,
+                        "degree": 1,
+                        "minute": 2,
+                        "second": 37,
+                        "formatted": "1°2'37\" Gemelli"
+                    }
+                },
+                "Nettuno": {
+                    "longitude": "3.66",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 3,
+                        "minute": 39,
+                        "second": 18,
+                        "formatted": "3°39'18\" Ariete"
+                    }
+                },
+                "Plutone": {
+                    "longitude": "305.50",
+                    "zodiac": {
+                        "sign": "Acquario",
+                        "signIndex": 10,
+                        "degree": 5,
+                        "minute": 29,
+                        "second": 42,
+                        "formatted": "5°29'42\" Acquario"
+                    }
+                }
+            },
+            "31/5": {
+                "Sole": {
+                    "longitude": "69.10",
+                    "zodiac": {
+                        "sign": "Gemelli",
+                        "signIndex": 2,
+                        "degree": 9,
+                        "minute": 6,
+                        "second": 1,
+                        "formatted": "9°6'1\" Gemelli"
+                    }
+                },
+                "Luna": {
+                    "longitude": "239.63",
+                    "zodiac": {
+                        "sign": "Scorpione",
+                        "signIndex": 7,
+                        "degree": 29,
+                        "minute": 37,
+                        "second": 43,
+                        "formatted": "29°37'43\" Scorpione"
+                    }
+                },
+                "Mercurio": {
+                    "longitude": "86.52",
+                    "zodiac": {
+                        "sign": "Gemelli",
+                        "signIndex": 2,
+                        "degree": 26,
+                        "minute": 31,
+                        "second": 15,
+                        "formatted": "26°31'15\" Gemelli"
+                    }
+                },
+                "Venere": {
+                    "longitude": "103.62",
+                    "zodiac": {
+                        "sign": "Cancro",
+                        "signIndex": 3,
+                        "degree": 13,
+                        "minute": 37,
+                        "second": 20,
+                        "formatted": "13°37'20\" Cancro"
+                    }
+                },
+                "Marte": {
+                    "longitude": "38.65",
+                    "zodiac": {
+                        "sign": "Toro",
+                        "signIndex": 1,
+                        "degree": 8,
+                        "minute": 38,
+                        "second": 49,
+                        "formatted": "8°38'49\" Toro"
+                    }
+                },
+                "Giove": {
+                    "longitude": "113.79",
+                    "zodiac": {
+                        "sign": "Cancro",
+                        "signIndex": 3,
+                        "degree": 23,
+                        "minute": 47,
+                        "second": 9,
+                        "formatted": "23°47'9\" Cancro"
+                    }
+                },
+                "Saturno": {
+                    "longitude": "12.12",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 12,
+                        "minute": 6,
+                        "second": 59,
+                        "formatted": "12°6'59\" Ariete"
+                    }
+                },
+                "Urano": {
+                    "longitude": "61.98",
+                    "zodiac": {
+                        "sign": "Gemelli",
+                        "signIndex": 2,
+                        "degree": 1,
+                        "minute": 58,
+                        "second": 36,
+                        "formatted": "1°58'36\" Gemelli"
+                    }
+                },
+                "Nettuno": {
+                    "longitude": "4.03",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 4,
+                        "minute": 1,
+                        "second": 52,
+                        "formatted": "4°1'52\" Ariete"
+                    }
+                },
+                "Plutone": {
+                    "longitude": "305.38",
+                    "zodiac": {
+                        "sign": "Acquario",
+                        "signIndex": 10,
+                        "degree": 5,
+                        "minute": 22,
+                        "second": 49,
+                        "formatted": "5°22'49\" Acquario"
+                    }
+                }
+            }
+        },
+        "giugno 2026": {
+            "1/6": {
+                "Sole": {
+                    "longitude": "70.06",
+                    "zodiac": {
+                        "sign": "Gemelli",
+                        "signIndex": 2,
+                        "degree": 10,
+                        "minute": 3,
+                        "second": 32,
+                        "formatted": "10°3'32\" Gemelli"
+                    }
+                },
+                "Luna": {
+                    "longitude": "251.54",
+                    "zodiac": {
+                        "sign": "Sagittario",
+                        "signIndex": 8,
+                        "degree": 11,
+                        "minute": 32,
+                        "second": 16,
+                        "formatted": "11°32'16\" Sagittario"
+                    }
+                },
+                "Mercurio": {
+                    "longitude": "88.29",
+                    "zodiac": {
+                        "sign": "Gemelli",
+                        "signIndex": 2,
+                        "degree": 28,
+                        "minute": 17,
+                        "second": 9,
+                        "formatted": "28°17'9\" Gemelli"
+                    }
+                },
+                "Venere": {
+                    "longitude": "104.80",
+                    "zodiac": {
+                        "sign": "Cancro",
+                        "signIndex": 3,
+                        "degree": 14,
+                        "minute": 48,
+                        "second": 16,
+                        "formatted": "14°48'16\" Cancro"
+                    }
+                },
+                "Marte": {
+                    "longitude": "39.39",
+                    "zodiac": {
+                        "sign": "Toro",
+                        "signIndex": 1,
+                        "degree": 9,
+                        "minute": 23,
+                        "second": 20,
+                        "formatted": "9°23'20\" Toro"
+                    }
+                },
+                "Giove": {
+                    "longitude": "113.97",
+                    "zodiac": {
+                        "sign": "Cancro",
+                        "signIndex": 3,
+                        "degree": 23,
+                        "minute": 58,
+                        "second": 24,
+                        "formatted": "23°58'24\" Cancro"
+                    }
+                },
+                "Saturno": {
+                    "longitude": "12.20",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 12,
+                        "minute": 12,
+                        "second": 7,
+                        "formatted": "12°12'7\" Ariete"
+                    }
+                },
+                "Urano": {
+                    "longitude": "62.03",
+                    "zodiac": {
+                        "sign": "Gemelli",
+                        "signIndex": 2,
+                        "degree": 2,
+                        "minute": 2,
+                        "second": 5,
+                        "formatted": "2°2'5\" Gemelli"
+                    }
+                },
+                "Nettuno": {
+                    "longitude": "4.05",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 4,
+                        "minute": 3,
+                        "second": 3,
+                        "formatted": "4°3'3\" Ariete"
+                    }
+                },
+                "Plutone": {
+                    "longitude": "305.37",
+                    "zodiac": {
+                        "sign": "Acquario",
+                        "signIndex": 10,
+                        "degree": 5,
+                        "minute": 22,
+                        "second": 11,
+                        "formatted": "5°22'11\" Acquario"
+                    }
+                }
+            },
+            "15/6": {
+                "Sole": {
+                    "longitude": "83.46",
+                    "zodiac": {
+                        "sign": "Gemelli",
+                        "signIndex": 2,
+                        "degree": 23,
+                        "minute": 27,
+                        "second": 24,
+                        "formatted": "23°27'24\" Gemelli"
+                    }
+                },
+                "Luna": {
+                    "longitude": "74.54",
+                    "zodiac": {
+                        "sign": "Gemelli",
+                        "signIndex": 2,
+                        "degree": 14,
+                        "minute": 32,
+                        "second": 27,
+                        "formatted": "14°32'27\" Gemelli"
+                    }
+                },
+                "Mercurio": {
+                    "longitude": "107.89",
+                    "zodiac": {
+                        "sign": "Cancro",
+                        "signIndex": 3,
+                        "degree": 17,
+                        "minute": 53,
+                        "second": 41,
+                        "formatted": "17°53'41\" Cancro"
+                    }
+                },
+                "Venere": {
+                    "longitude": "121.22",
+                    "zodiac": {
+                        "sign": "Leone",
+                        "signIndex": 4,
+                        "degree": 1,
+                        "minute": 13,
+                        "second": 24,
+                        "formatted": "1°13'24\" Leone"
+                    }
+                },
+                "Marte": {
+                    "longitude": "49.68",
+                    "zodiac": {
+                        "sign": "Toro",
+                        "signIndex": 1,
+                        "degree": 19,
+                        "minute": 40,
+                        "second": 52,
+                        "formatted": "19°40'52\" Toro"
+                    }
+                },
+                "Giove": {
+                    "longitude": "116.71",
+                    "zodiac": {
+                        "sign": "Cancro",
+                        "signIndex": 3,
+                        "degree": 26,
+                        "minute": 42,
+                        "second": 50,
+                        "formatted": "26°42'50\" Cancro"
+                    }
+                },
+                "Saturno": {
+                    "longitude": "13.27",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 13,
+                        "minute": 16,
+                        "second": 20,
+                        "formatted": "13°16'20\" Ariete"
+                    }
+                },
+                "Urano": {
+                    "longitude": "62.83",
+                    "zodiac": {
+                        "sign": "Gemelli",
+                        "signIndex": 2,
+                        "degree": 2,
+                        "minute": 49,
+                        "second": 56,
+                        "formatted": "2°49'56\" Gemelli"
+                    }
+                },
+                "Nettuno": {
+                    "longitude": "4.27",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 4,
+                        "minute": 16,
+                        "second": 28,
+                        "formatted": "4°16'28\" Ariete"
+                    }
+                },
+                "Plutone": {
+                    "longitude": "305.18",
+                    "zodiac": {
+                        "sign": "Acquario",
+                        "signIndex": 10,
+                        "degree": 5,
+                        "minute": 10,
+                        "second": 48,
+                        "formatted": "5°10'48\" Acquario"
+                    }
+                }
+            },
+            "30/6": {
+                "Sole": {
+                    "longitude": "97.77",
+                    "zodiac": {
+                        "sign": "Cancro",
+                        "signIndex": 3,
+                        "degree": 7,
+                        "minute": 46,
+                        "second": 22,
+                        "formatted": "7°46'22\" Cancro"
+                    }
+                },
+                "Luna": {
+                    "longitude": "272.32",
+                    "zodiac": {
+                        "sign": "Capricorno",
+                        "signIndex": 9,
+                        "degree": 2,
+                        "minute": 19,
+                        "second": 24,
+                        "formatted": "2°19'24\" Capricorno"
+                    }
+                },
+                "Mercurio": {
+                    "longitude": "116.26",
+                    "zodiac": {
+                        "sign": "Cancro",
+                        "signIndex": 3,
+                        "degree": 26,
+                        "minute": 15,
+                        "second": 18,
+                        "formatted": "26°15'18\" Cancro"
+                    }
+                },
+                "Venere": {
+                    "longitude": "138.49",
+                    "zodiac": {
+                        "sign": "Leone",
+                        "signIndex": 4,
+                        "degree": 18,
+                        "minute": 29,
+                        "second": 23,
+                        "formatted": "18°29'23\" Leone"
+                    }
+                },
+                "Marte": {
+                    "longitude": "60.49",
+                    "zodiac": {
+                        "sign": "Gemelli",
+                        "signIndex": 2,
+                        "degree": 0,
+                        "minute": 29,
+                        "second": 26,
+                        "formatted": "0°29'26\" Gemelli"
+                    }
+                },
+                "Giove": {
+                    "longitude": "119.84",
+                    "zodiac": {
+                        "sign": "Cancro",
+                        "signIndex": 3,
+                        "degree": 29,
+                        "minute": 50,
+                        "second": 27,
+                        "formatted": "29°50'27\" Cancro"
+                    }
+                },
+                "Saturno": {
+                    "longitude": "14.12",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 14,
+                        "minute": 7,
+                        "second": 13,
+                        "formatted": "14°7'13\" Ariete"
+                    }
+                },
+                "Urano": {
+                    "longitude": "63.63",
+                    "zodiac": {
+                        "sign": "Gemelli",
+                        "signIndex": 2,
+                        "degree": 3,
+                        "minute": 37,
+                        "second": 55,
+                        "formatted": "3°37'55\" Gemelli"
+                    }
+                },
+                "Nettuno": {
+                    "longitude": "4.40",
+                    "zodiac": {
+                        "sign": "Ariete",
+                        "signIndex": 0,
+                        "degree": 4,
+                        "minute": 24,
+                        "second": 2,
+                        "formatted": "4°24'2\" Ariete"
+                    }
+                },
+                "Plutone": {
+                    "longitude": "304.91",
+                    "zodiac": {
+                        "sign": "Acquario",
+                        "signIndex": 10,
+                        "degree": 4,
+                        "minute": 54,
+                        "second": 23,
+                        "formatted": "4°54'23\" Acquario"
+                    }
+                }
+            }
+        }
+    }
+}
