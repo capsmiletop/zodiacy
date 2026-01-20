@@ -101,7 +101,7 @@ export default function WelcomeForm({ onFormCompleted }: WelcomeFormProps) {
                     position="relative"
                 >
                     <Image
-                        src="/zodiac.png"
+                        src="/zodiacy.png"
                         alt="Zodiac Wheel"
                         maxW="600px"
                         w="100%"

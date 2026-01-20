@@ -15,7 +15,6 @@ import TransitsTableTest from './pages/testing/TransitsTableTest'
 function App() {
   const location = useLocation()
   const isTestingRoute = location.pathname.startsWith('/testing')
-  console.log("isTestingRoute", isTestingRoute)
   const [showWelcome, setShowWelcome] = useState(!isTestingRoute)
   const [activeTab, setActiveTab] = useState('natal')
 
