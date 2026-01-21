@@ -2,14 +2,12 @@ import {
     Box,
     Button,
     Text,
-    Card,
     VStack,
     HStack,
     Spinner,
     SimpleGrid,
     Input,
     Field,
-    Separator,
 } from '@chakra-ui/react'
 import { Toaster, toaster } from "./ui/toaster"
 import { useEffect, useState } from 'react'
@@ -174,34 +172,86 @@ export default function NatalForm({
         onLatitudeChange('')
         onLongitudeChange('')
         onTimezoneChange('')
-        //alert('Campi svuotati')
         toaster.create({
             title: "Campi svuotati correttamente",
             type: "success",
         })
     }
 
+    // Reusable input styles
+    const inputStyles = {
+        bg: "transparent",
+        border: "none",
+        borderBottom: "1px solid",
+        borderColor: "rgba(255, 255, 255, 0.3)",
+        borderRadius: "0",
+        color: "white",
+        px: 0,
+        _placeholder: { color: 'rgba(255, 255, 255, 0.5)' },
+        _focus: {
+            outline: 'none',
+            borderBottom: '1px solid',
+            borderBottomColor: 'rgba(173, 216, 230, 0.6)',
+            boxShadow: 'none'
+        },
+        _hover: {
+            borderBottomColor: 'rgba(255, 255, 255, 0.5)'
+        }
+    }
+
+    // Reusable button styles
+    const buttonBaseStyles = {
+        bg: "rgba(255, 255, 255, 0.1)",
+        border: "1px solid",
+        borderColor: "rgba(255, 255, 255, 0.3)",
+        color: "white",
+        size: "sm" as const,
+        fontSize: "xs",
+        _hover: {
+            bg: 'rgba(255, 255, 255, 0.2)',
+            borderColor: 'rgba(255, 255, 255, 0.5)'
+        }
+    }
+
+    // Reusable field label styles
+    const fieldLabelStyle = { color: "rgba(255, 255, 255, 0.9)" }
+    const helperTextStyle = { color: "rgba(255, 255, 255, 0.5)" }
+
     return (
-        <Card.Root size="lg" boxShadow="xl" w="full" maxW="900px">
+        <Box w="full" maxW="900px" mx="auto" 
+            p={6} 
+            bg="rgba(32, 38, 65, 0.9)" 
+            borderRadius="xl" 
+            border="1px solid" 
+            borderColor="rgba(255, 255, 255, 0.1)">
             <Toaster />
-            <Card.Header>
-                <Text fontSize="xl" fontWeight="bold" textAlign="center">
-                    Calcolo Tema Natale e Transiti
-                </Text>
-                <Text fontSize="sm" color="gray.600" textAlign="center" mt={2}>
-                    Inserisci tutti i dati per calcolare il tema natale completo con i rispettivi transiti
-                </Text>
-            </Card.Header>
-            <Card.Body>
+            <VStack gap={8} align="stretch">
+                {/* Header */}
+                <Box textAlign="center">
+                    <Text fontSize="2xl" fontWeight="bold" color="white" mb={2}>
+                        Calcolo Tema Natale e Transiti
+                    </Text>
+                    <Text fontSize="sm" color="rgba(255, 255, 255, 0.7)" textAlign="center">
+                        Inserisci tutti i dati per calcolare il tema natale completo con i rispettivi transiti
+                    </Text>
+                </Box>
+
                 <VStack gap={6}>
                     {/* Sezione Gestione Profilo */}
-                    <Box w="full" p={6} bg="gray.50" borderRadius="lg" border="1px solid" borderColor="gray.200">
+                    <Box 
+                        w="full" 
+                        p={6} 
+                        bg="rgba(30, 35, 60, 0.9)" 
+                        borderRadius="xl" 
+                        border="1px solid" 
+                        borderColor="rgba(255, 255, 255, 0.1)"
+                    >
                         <VStack gap={5}>
                             <Box textAlign="center">
-                                <Text fontSize="lg" fontWeight="bold" color="gray.700" mb={2}>
-                                    👤 Gestione Profilo
+                                <Text fontSize="lg" fontWeight="bold" color="white" mb={2}>
+                                     Gestione Profilo
                                 </Text>
-                                <Text fontSize="sm" color="gray.600">
+                                <Text fontSize="sm" color="rgba(255, 255, 255, 0.7)">
                                     Salva e gestisci i tuoi profili astrologici
                                 </Text>
                             </Box>
@@ -209,25 +259,21 @@ export default function NatalForm({
                             {/* Campi Nome e Descrizione */}
                             <SimpleGrid columns={{ base: 1, md: 2 }} gap={4} w="full">
                                 <Field.Root>
-                                    <Field.Label fontSize="sm" fontWeight="medium" color="gray.700">Nome Profilo</Field.Label>
+                                    <Field.Label fontSize="sm" fontWeight="medium" {...fieldLabelStyle}></Field.Label>
                                     <Input
                                         value={profileName}
                                         onChange={(e) => setProfileName(e.target.value)}
-                                        placeholder="Es. Mario Rossi"
-                                        bg="white"
-                                        borderColor="gray.300"
-                                        _focus={{ borderColor: "blue.400", boxShadow: "0 0 0 1px blue.400" }}
+                                        placeholder="Nome Profilo*:  Mario Rossi"
+                                        {...inputStyles}
                                     />
                                 </Field.Root>
                                 <Field.Root>
-                                    <Field.Label fontSize="sm" fontWeight="medium" color="gray.700">Descrizione</Field.Label>
+                                    <Field.Label fontSize="sm" fontWeight="medium" {...fieldLabelStyle}></Field.Label>
                                     <Input
                                         value={description}
                                         onChange={(e) => setDescription(e.target.value)}
-                                        placeholder="Es. Tema natale principale"
-                                        bg="white"
-                                        borderColor="gray.300"
-                                        _focus={{ borderColor: "blue.400", boxShadow: "0 0 0 1px blue.400" }}
+                                        placeholder="Descrizione*:  Tema natale principale"
+                                        {...inputStyles}
                                     />
                                 </Field.Root>
                             </SimpleGrid>
@@ -235,7 +281,7 @@ export default function NatalForm({
                             {/* Selezione profilo esistente */}
                             <Box w="full">
                                 <Field.Root>
-                                    <Field.Label fontSize="sm" fontWeight="medium" color="gray.700" mb={2}>
+                                    <Field.Label fontSize="sm" fontWeight="medium" color="rgba(255, 255, 255, 0.9)" mb={2}>
                                         Carica profilo esistente
                                     </Field.Label>
                                     <select
@@ -246,106 +292,77 @@ export default function NatalForm({
                                             padding: '12px',
                                             fontSize: '14px',
                                             borderRadius: '8px',
-                                            border: '1px solid #D2D6DC',
-                                            backgroundColor: 'white',
-                                            color: '#374151'
+                                            border: '1px solid rgba(255, 255, 255, 0.3)',
+                                            backgroundColor: 'rgba(30, 35, 60, 0.5)',
+                                            color: 'white'
                                         }}
                                     >
-                                        <option value="">-- Seleziona un profilo salvato --</option>
+                                        <option value="" style={{ backgroundColor: '#1b203e' }}>-- Seleziona un profilo salvato --</option>
                                         {profileList.map((p) => (
-                                            <option key={p} value={p}>{p}</option>
+                                            <option key={p} value={p} style={{ backgroundColor: '#1b203e' }}>{p}</option>
                                         ))}
                                     </select>
                                 </Field.Root>
                             </Box>
 
-                            {/* Bottoni azioni */}
-                            <VStack gap={3} w="full">
-                                {/* Azioni principali */}
-                                <SimpleGrid columns={{ base: 2, md: 4 }} gap={3} w="full">
-                                    <Button
-                                        onClick={handleSaveProfile}
-                                        colorScheme="green"
-                                        size="sm"
-                                        fontSize="xs"
-                                    >
-                                        💾 Salva
-                                    </Button>
-                                    <Button
-                                        onClick={handleLoadProfile}
-                                        colorScheme="blue"
-                                        size="sm"
-                                        fontSize="xs"
-                                    >
-                                        📁 Carica
-                                    </Button>
-                                    <Button
-                                        onClick={handleDeleteProfile}
-                                        colorScheme="red"
-                                        size="sm"
-                                        fontSize="xs"
-                                    >
-                                        🗑️ Elimina
-                                    </Button>
-                                    <Button
-                                        onClick={handleClear}
-                                        variant="outline"
-                                        size="sm"
-                                        fontSize="xs"
-                                    >
-                                        🧹 Pulisci
-                                    </Button>
-                                </SimpleGrid>
-
-                                {/* Azioni import/export */}
-                                <SimpleGrid columns={{ base: 1, md: 2 }} gap={3} w="full">
-                                    <Button
-                                        onClick={handleBackup}
-                                        variant="outline"
-                                        colorScheme="gray"
-                                        size="sm"
-                                        fontSize="xs"
-                                    >
-                                        📤 Esporta tutti i profili
-                                    </Button>
-                                    <Button
-                                        as="label"
-                                        variant="outline"
-                                        colorScheme="gray"
-                                        size="sm"
-                                        fontSize="xs"
-                                        cursor="pointer"
-                                    >
-                                        📤 Importa profili da file
-                                        <Input type="file" hidden accept=".csv" onChange={handleImport} />
-                                    </Button>
-                                </SimpleGrid>
-                            </VStack>
+                            {/* Bottoni azioni - 2x3 Grid */}
+                            <SimpleGrid columns={{ base: 2, md: 3 }} gap={3} w="full">
+                                <Button onClick={handleSaveProfile} {...buttonBaseStyles}>
+                                    💾 Salva
+                                </Button>
+                                <Button onClick={handleLoadProfile} {...buttonBaseStyles}>
+                                    📁 Carica
+                                </Button>
+                                <Button
+                                    onClick={handleDeleteProfile}
+                                    {...buttonBaseStyles}
+                                    _hover={{
+                                        bg: 'rgba(255, 0, 0, 0.2)',
+                                        borderColor: 'rgba(255, 0, 0, 0.5)'
+                                    }}
+                                >
+                                    🗑️ Elimina
+                                </Button>
+                                <Button onClick={handleClear} {...buttonBaseStyles}>
+                                    🧹 Pulisci
+                                </Button>
+                                <Button onClick={handleBackup} {...buttonBaseStyles}>
+                                    📤 Esporta tutti i profili
+                                </Button>
+                                <Button
+                                    as="label"
+                                    {...buttonBaseStyles}
+                                    cursor="pointer"
+                                >
+                                    📥 Importa profili da file
+                                    <Input type="file" hidden accept=".csv" onChange={handleImport} />
+                                </Button>
+                            </SimpleGrid>
                         </VStack>
                     </Box>
 
                     {/* Prima riga: Data e Ora */}
                     <SimpleGrid columns={{ base: 1, md: 2 }} gap={6} w="full">
                         <Field.Root>
-                            <Field.Label>Data di Nascita</Field.Label>
+                            <Field.Label {...fieldLabelStyle}>Data di Nascita:</Field.Label>
                             <Input
                                 type="date"
                                 value={selectedDate}
                                 onChange={(e) => onDateChange(e.target.value)}
-                                size="lg"
+                                {...inputStyles}
                             />
-                            <Field.HelperText>Formato: gg/mm/aaaa</Field.HelperText>
+                            <Field.HelperText {...helperTextStyle}>Formato: gg/mm/aaaa</Field.HelperText>
                         </Field.Root>
 
                         <Field.Root>
-                            <Field.Label>Ora di Nascita</Field.Label>
+                            <Field.Label {...fieldLabelStyle}>Ora di Nascita:</Field.Label>
                             <Input
                                 type="time"
                                 value={selectedTime}
                                 onChange={(e) => onTimeChange(e.target.value)}
-                                size="lg"
+                                {...inputStyles}
                             />
-                            <Field.HelperText>Formato 24 ore (es. 14:30)</Field.HelperText>
+                            <Field.HelperText {...helperTextStyle}>Formato 24 ore (es. 14:30)</Field.HelperText>
                         </Field.Root>
                     </SimpleGrid>
 
@@ -364,79 +381,79 @@ export default function NatalForm({
                     {/* Terza riga: Coordinate geografiche */}
                     <SimpleGrid columns={{ base: 1, md: 3 }} gap={6} w="full">
                         <Field.Root>
-                            <Field.Label>Latitudine</Field.Label>
+                            <Field.Label {...fieldLabelStyle}>Latitudine:</Field.Label>
                             <Input
                                 type="number"
                                 step="0.000001"
                                 placeholder="es. 45.4642"
                                 value={latitude}
                                 onChange={(e) => onLatitudeChange(e.target.value)}
-                                size="lg"
+                                {...inputStyles}
                             />
-                            <Field.HelperText>Coordinata Nord/Sud</Field.HelperText>
+                            <Field.HelperText {...helperTextStyle}>Coordinata Nord/Sud</Field.HelperText>
                         </Field.Root>
 
                         <Field.Root>
-                            <Field.Label>Longitudine</Field.Label>
+                            <Field.Label {...fieldLabelStyle}>Longitudine:</Field.Label>
                             <Input
                                 type="number"
                                 step="0.000001"
                                 placeholder="es. 9.1900"
                                 value={longitude}
                                 onChange={(e) => onLongitudeChange(e.target.value)}
-                                size="lg"
+                                {...inputStyles}
                             />
-                            <Field.HelperText>Coordinata Est/Ovest</Field.HelperText>
+                            <Field.HelperText {...helperTextStyle}>Coordinata Est/Ovest</Field.HelperText>
                         </Field.Root>
 
                         <Field.Root>
-                            <Field.Label>Fuso Orario</Field.Label>
+                            <Field.Label {...fieldLabelStyle}>Fuso Orario:</Field.Label>
                             <Input
                                 type="number"
                                 step="0.5"
                                 placeholder="es. 1 (CET)"
                                 value={timezone}
                                 onChange={(e) => onTimezoneChange(e.target.value)}
-                                size="lg"
+                                {...inputStyles}
                             />
-                            <Field.HelperText>Ore da UTC (es. +1 per Italia)</Field.HelperText>
+                            <Field.HelperText {...helperTextStyle}>Ore da UTC (es. +1 per Italia)</Field.HelperText>
                         </Field.Root>
                     </SimpleGrid>
 
-                    <Separator />
+                    <Box w="full" h="1px" bg="rgba(255, 255, 255, 0.1)" my={4} />
 
                     {/* Configurazione periodo transiti */}
                     <VStack gap={4} align="stretch">
-                        <Text fontSize="lg" fontWeight="semibold" textAlign="center">
+                        <Text fontSize="lg" fontWeight="semibold" textAlign="center" color="white">
                             📅 Periodo Transiti Mensili
                         </Text>
 
                         <SimpleGrid columns={{ base: 1, md: 2 }} gap={4}>
                             <Field.Root>
-                                <Field.Label>Data Inizio Transiti</Field.Label>
+                                <Field.Label {...fieldLabelStyle}>Data Inizio Transiti:</Field.Label>
                                 <Input
                                     type="date"
                                     value={transitStartDate}
                                     onChange={(e) => onTransitStartDateChange(e.target.value)}
-                                    size="lg"
+                                    {...inputStyles}
                                 />
-                                <Field.HelperText>Primo giorno del periodo da analizzare</Field.HelperText>
+                                <Field.HelperText {...helperTextStyle}>Primo giorno del periodo da analizzare</Field.HelperText>
                             </Field.Root>
 
                             <Field.Root>
-                                <Field.Label>Data Fine Transiti</Field.Label>
+                                <Field.Label {...fieldLabelStyle}>Data Fine Transiti:</Field.Label>
                                 <Input
                                     type="date"
                                     value={transitEndDate}
                                     onChange={(e) => onTransitEndDateChange(e.target.value)}
-                                    size="lg"
+                                    {...inputStyles}
                                 />
-                                <Field.HelperText>Ultimo giorno del periodo da analizzare</Field.HelperText>
+                                <Field.HelperText {...helperTextStyle}>Ultimo giorno del periodo da analizzare</Field.HelperText>
                             </Field.Root>
                         </SimpleGrid>
 
-                        <Box p={3} bg="orange.50" borderRadius="md" textAlign="center">
-                            <Text fontSize="sm" color="orange.700">
+                        <Box p={3} bg="rgba(255, 165, 0, 0.1)" borderRadius="md" textAlign="center" border="1px solid" borderColor="rgba(255, 165, 0, 0.3)">
+                            <Text fontSize="sm" color="rgba(255, 255, 255, 0.8)">
                                 I transiti saranno calcolati mensilmente per il periodo specificato
                             </Text>
                         </Box>
@@ -445,10 +462,22 @@ export default function NatalForm({
                     <Button
                         onClick={onSubmit}
                         disabled={loading || !latitude || !longitude || !transitStartDate || !transitEndDate}
-                        colorScheme="green"
+                        bg="rgba(255, 255, 255, 0.1)"
+                        border="1px solid"
+                        borderColor="rgba(255, 255, 255, 0.3)"
+                        color="white"
                         size="lg"
                         width="full"
                         mt={4}
+                        borderRadius="md"
+                        _hover={{
+                            bg: 'rgba(255, 255, 255, 0.2)',
+                            borderColor: 'rgba(255, 255, 255, 0.5)'
+                        }}
+                        _disabled={{
+                            opacity: 0.5,
+                            cursor: 'not-allowed'
+                        }}
                     >
                         {loading ? (
                             <HStack>
@@ -460,7 +489,8 @@ export default function NatalForm({
                         )}
                     </Button>
                 </VStack>
-            </Card.Body>
-        </Card.Root>
+            </VStack>
+            
+        </Box>
     )
 }

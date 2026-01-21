@@ -11,11 +11,12 @@ import {
 import { Link as RouterLink } from 'react-router-dom'
 import { FiArrowLeft } from 'react-icons/fi'
 import { TransitsTable } from './TransitsTable'
+import Footer from '../../components/Footer'
 
 const TransitsTableTest: React.FC = () => {
     return (
-        <Box minH="100vh" bg="#1b203e" color="white">
-            <Box maxW="7xl" mx="auto" p={6}>
+        <Box minH="100vh" bg="#1b203e" color="white" display="flex" flexDirection="column">
+            <Box maxW="7xl" mx="auto" p={6} flex="1">
                 <VStack gap={6} align="stretch">
                     <HStack justify="space-between" align="center">
                         <VStack align="start" gap={1}>
@@ -38,6 +39,7 @@ const TransitsTableTest: React.FC = () => {
                     </Box>
                 </VStack>
             </Box>
+            <Footer />
         </Box>
     )
 }

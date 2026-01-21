@@ -87,27 +87,39 @@ const LocationInput = ({ date, onDataReceived }: LocationInputProps) => {
   return (
     <Box w="full">
       <VStack align="stretch" gap={3}>
-        <Text fontSize="md" fontWeight="semibold" color="blue.700">
+        <Text fontSize="md" fontWeight="semibold" color="rgba(173, 216, 230, 0.9)">
           🌍 Ricerca Automatica Coordinate
         </Text>
 
-        <Text fontSize="sm" color="gray.600">
+        <Text fontSize="sm" color="rgba(255, 255, 255, 0.7)">
           Cerca una città per ottenere automaticamente coordinate e fuso orario (Location data via OpenCage)
         </Text>
 
         <Box position="relative">
           <Input
-            placeholder="Digita una città (es. Roma, Milano, Napoli)..."
+            placeholder="Digita una città: es. Roma, Milano, Napoli"
             value={query}
             onChange={(e) => {
               setQuery(e.target.value)
               setSelectedPlace(null)
             }}
-            size="lg"
-            bg="white"
-            border="2px solid"
-            borderColor="blue.200"
-            _focus={{ borderColor: "blue.400", boxShadow: "0 0 0 1px blue.400" }}
+            bg="transparent"
+            border="none"
+            borderBottom="1px solid"
+            borderColor="rgba(255, 255, 255, 0.3)"
+            borderRadius="0"
+            color="white"
+            px={0}
+            _placeholder={{ color: 'rgba(255, 255, 255, 0.5)' }}
+            _focus={{
+              outline: 'none',
+              borderBottom: '1px solid',
+              borderBottomColor: 'rgba(173, 216, 230, 0.6)',
+              boxShadow: 'none'
+            }}
+            _hover={{
+              borderBottomColor: 'rgba(255, 255, 255, 0.5)'
+            }}
           />
 
           {/* Suggerimenti dropdown */}
@@ -121,15 +133,15 @@ const LocationInput = ({ date, onDataReceived }: LocationInputProps) => {
               mt={1}
               maxH="200px"
               overflowY="auto"
-              bg="white"
+              bg="rgba(30, 35, 60, 0.95)"
               border="1px solid"
-              borderColor="gray.200"
+              borderColor="rgba(255, 255, 255, 0.2)"
               borderRadius="md"
               boxShadow="lg"
             >
               <Card.Body p={2}>
                 <VStack align="stretch" gap={1}>
-                  <Text fontSize="xs" color="gray.500" px={2} py={1}>
+                  <Text fontSize="xs" color="rgba(255, 255, 255, 0.6)" px={2} py={1}>
                     📍 Seleziona il luogo corretto:
                   </Text>
                   {suggestions.map((sug, i) => (
@@ -144,14 +156,14 @@ const LocationInput = ({ date, onDataReceived }: LocationInputProps) => {
                       p={2}
                       borderRadius="sm"
                       _hover={{
-                        bg: "blue.50",
+                        bg: "rgba(173, 216, 230, 0.2)",
                         transform: "scale(1.01)",
-                        borderColor: "blue.200"
+                        borderColor: "rgba(173, 216, 230, 0.4)"
                       }}
                       transition="all 0.2s"
                       border="1px solid transparent"
                     >
-                      <Text fontSize="sm" fontWeight="medium">
+                      <Text fontSize="sm" fontWeight="medium" color="white">
                         {sug.formatted}
                       </Text>
                     </Box>
@@ -164,14 +176,14 @@ const LocationInput = ({ date, onDataReceived }: LocationInputProps) => {
 
         {/* Luogo selezionato */}
         {selectedPlace && (
-          <Card.Root bg="green.50" border="1px solid" borderColor="green.200">
+          <Card.Root bg="rgba(30, 35, 60, 0.9)" border="1px solid" borderColor="rgba(255, 255, 255, 0.2)">
             <Card.Body p={3}>
               <HStack justify="space-between" align="center">
                 <VStack align="start" gap={1}>
                   <HStack>
-                    <Badge colorScheme="green" size="sm">✓ Selezionato</Badge>
+                    <Badge bg="rgba(76, 175, 80, 0.3)" color="rgba(255, 255, 255, 0.9)" border="1px solid" borderColor="rgba(76, 175, 80, 0.5)" size="sm">✓ Selezionato</Badge>
                   </HStack>
-                  <Text fontSize="sm" fontWeight="medium" color="green.800">
+                  <Text fontSize="sm" fontWeight="medium" color="rgba(255, 255, 255, 0.9)">
                     {selectedPlace}
                   </Text>
                 </VStack>
@@ -179,9 +191,19 @@ const LocationInput = ({ date, onDataReceived }: LocationInputProps) => {
                 <Button
                   onClick={handleSearch}
                   disabled={loading}
-                  colorScheme="green"
+                  bg="rgba(255, 255, 255, 0.1)"
+                  border="1px solid"
+                  borderColor="rgba(255, 255, 255, 0.3)"
+                  color="white"
                   size="sm"
-                  variant="solid"
+                  _hover={{
+                    bg: 'rgba(255, 255, 255, 0.2)',
+                    borderColor: 'rgba(255, 255, 255, 0.5)'
+                  }}
+                  _disabled={{
+                    opacity: 0.5,
+                    cursor: 'not-allowed'
+                  }}
                 >
                   {loading ? (
                     <HStack gap={2}>
@@ -199,9 +221,9 @@ const LocationInput = ({ date, onDataReceived }: LocationInputProps) => {
 
         {/* Messaggi di stato */}
         {apiError && (
-          <Card.Root bg="orange.50" border="1px solid" borderColor="orange.200">
+          <Card.Root bg="rgba(255, 165, 0, 0.1)" border="1px solid" borderColor="rgba(255, 165, 0, 0.3)">
             <Card.Body p={3}>
-              <Text fontSize="sm" color="orange.700" whiteSpace="pre-line">
+              <Text fontSize="sm" color="rgba(255, 255, 255, 0.9)" whiteSpace="pre-line">
                 ⚠️ {apiError}
               </Text>
             </Card.Body>
@@ -209,17 +231,17 @@ const LocationInput = ({ date, onDataReceived }: LocationInputProps) => {
         )}
 
         {error && (
-          <Card.Root bg="red.50" border="1px solid" borderColor="red.200">
+          <Card.Root bg="rgba(255, 0, 0, 0.1)" border="1px solid" borderColor="rgba(255, 0, 0, 0.3)">
             <Card.Body p={3}>
-              <Text fontSize="sm" color="red.700">
+              <Text fontSize="sm" color="rgba(255, 255, 255, 0.9)">
                 ❌ {error}
               </Text>
             </Card.Body>
           </Card.Root>
         )}
 
-        <Text fontSize="xs" color="gray.500" textAlign="center">
-          💡 Suggerimento: Dopo aver selezionato un luogo, clicca "Ottieni Coordinate" per compilare automaticamente i campi sottostanti
+        <Text fontSize="xs" color="rgba(255, 255, 255, 0.5)" textAlign="center">
+          💡 Tip: After selecting a location, click "Get Coordinates" to automatically fill in the fields below
         </Text>
       </VStack>
     </Box>

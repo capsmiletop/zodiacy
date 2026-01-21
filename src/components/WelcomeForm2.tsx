@@ -57,7 +57,7 @@ export default function WelcomeForm({ onFormCompleted }: WelcomeFormProps) {
                     >
                         🌟 Benvenuto su Zodiacy
                     </Text>
-                    <Text fontSize="lg" color="gray.600" lineHeight="1.6">
+                    <Text fontSize="lg" color="gray.600">
                         Prima di accedere all'applicazione di calcolo astrologico "GetMyTransity",
                         ti diamo la possibilità di lasciarci la tua Mail per rimanere aggiornato sullo sviluppo di questa WebApp.
                     </Text>

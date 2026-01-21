@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Routes, Route, useLocation } from 'react-router-dom'
 import { fetchTemaNatale, fetchTransitiMensili } from './lib/api'
 import { Box, VStack, Flex, HStack, Button } from '@chakra-ui/react'
-import { Header, NatalForm, NatalResult, WelcomeForm } from './components'
+import { Header, NatalForm, NatalResult, WelcomeForm, Footer } from './components'
 
 // Import delle pagine di testing
 import TestingHome from './pages/testing/TestingHome'
@@ -65,16 +65,21 @@ function App() {
   // Componente per la pagina principale
   const MainApp = () => {
     if (showWelcome) {
-      return <WelcomeForm onFormCompleted={handleWelcomeCompleted} />
+      return (
+        <Box minH="100vh" display="flex" flexDirection="column">
+          <WelcomeForm onFormCompleted={handleWelcomeCompleted} />
+          <Footer />
+        </Box>
+      )
     }
 
     return (
-      <Box minH="100vh" bg="#1b203e" color="white">
-        <Flex direction="column" align="center" justify="flex-start" minH="100vh" p={8}>
+      <Box minH="100vh" bg="#1b203e" color="white" display="flex" flexDirection="column">
+        <Flex direction="column" align="center" justify="flex-start" flex="1" p={8}>
           <VStack gap={8} align="center" w="full" maxW="1200px">
             <Header />
 
-            <HStack gap={4} mb={4} flexWrap="wrap">
+            {/* <HStack gap={4} mb={4} flexWrap="wrap">
               <Button
                 onClick={() => setActiveTab('natal')}
                 colorScheme={activeTab === 'natal' ? 'blue' : 'gray'}
@@ -83,7 +88,7 @@ function App() {
               >
                 Calcolo Tema Natale e Transiti
               </Button>
-            </HStack>
+            </HStack> */}
 
             {activeTab === 'natal' && (
               <>
@@ -110,6 +115,7 @@ function App() {
             )}
           </VStack>
         </Flex>
+        <Footer />
       </Box>
     )
   }

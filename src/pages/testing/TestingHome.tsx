@@ -12,6 +12,7 @@ import {
 } from '@chakra-ui/react'
 import { Link as RouterLink } from 'react-router-dom'
 import { FiTable, FiPlus, FiSettings, FiHome } from 'react-icons/fi'
+import Footer from '../../components/Footer'
 
 const TestingHome: React.FC = () => {
     const testingRoutes = [
@@ -25,8 +26,8 @@ const TestingHome: React.FC = () => {
     ]
 
     return (
-        <Box minH="100vh" bg="#1b203e" color="white">
-            <Box maxW="6xl" mx="auto" p={6}>
+        <Box minH="100vh" bg="#1b203e" color="white" display="flex" flexDirection="column">
+            <Box maxW="6xl" mx="auto" p={6} flex="1">
                 <VStack gap={8} align="stretch">
                     {/* Header con navigazione */}
                     <HStack justify="space-between" align="center">
@@ -103,6 +104,7 @@ const TestingHome: React.FC = () => {
                     </Box>
                 </VStack>
             </Box>
+            <Footer />
         </Box>
     )
 }
