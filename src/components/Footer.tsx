@@ -276,7 +276,7 @@ export default function Footer() {
           w="full"
         >
           {/* Brevo Newsletter Form */}
-                  <Box
+          <Box
             w="full"
             maxW="540px"
             dangerouslySetInnerHTML={{
@@ -489,9 +489,9 @@ export default function Footer() {
             maxW="250px"
             textAlign="center"
           >
-            <Text fontSize="xs" color="rgba(255, 255, 255, 0.7)" mb={3} fontWeight="medium">
+            {/* <Text fontSize="xs" color="rgba(255, 255, 255, 0.7)" mb={3} fontWeight="medium">
               Supporta il progetto
-            </Text>
+            </Text> */}
             <Box
               ref={paypalButtonRef}
               id="paypal-button-container"
