@@ -8,6 +8,10 @@ import { useEffect, useRef } from 'react'
 export default function Footer() {
   const paypalButtonRef = useRef<HTMLDivElement>(null)
   const paypalInitializedRef = useRef(false)
+  
+  // Parse reCAPTCHA keys from environment variables
+  const siteKey = import.meta.env.VITE_CAPTCHA_SITE_KEY || '6LcgT0ssAAAAAM-6GqBOcvSJkpbLYu9Uk__6EoEM'
+  // const _secretKey = import.meta.env.VITE_CAPTCHA_SECRET_KEY || 'YOUR_CAPTCHA_SECRET_KEY' // For backend use only
 
   useEffect(() => {
     const isLocalhost =
@@ -456,7 +460,7 @@ export default function Footer() {
                               window.location.hostname === '::1'))
                             ? ''
                             : `<div style="padding: 8px 0;">
-                                <div class="g-recaptcha" data-sitekey="6LcgT0ssAAAAAM-6GqBOcvSJkpbLYu9Uk__6EoEM" data-callback="invisibleCaptchaCallback" data-size="invisible" onclick="executeCaptcha"></div>
+                                <div class="g-recaptcha" data-sitekey="${siteKey}" data-callback="invisibleCaptchaCallback" data-size="invisible" onclick="executeCaptcha"></div>
                               </div>`
                         }
                         <div style="padding: 8px 0;">
