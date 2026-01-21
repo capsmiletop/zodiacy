@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Routes, Route, useLocation } from 'react-router-dom'
 import { fetchTemaNatale, fetchTransitiMensili } from './lib/api'
-import { Box, VStack, Flex } from '@chakra-ui/react'
+import { Box, VStack, Flex , HStack, Button } from '@chakra-ui/react'
 import { Header, NatalForm, NatalResult, WelcomeForm, Footer } from './components'
 
 // Import delle pagine di testing
@@ -16,7 +16,7 @@ function App() {
   const location = useLocation()
   const isTestingRoute = location.pathname.startsWith('/testing')
   const [showWelcome, setShowWelcome] = useState(!isTestingRoute)
-  //const [activeTab, setActiveTab] = useState('natal')
+  const [activeTab, setActiveTab] = useState('natal')
 
   // ====== STATI PER CALCOLO TEMA NATALE E TRANSITI ======
   const [natalResult, setNatalResult] = useState<any>(null)
@@ -79,7 +79,7 @@ function App() {
           <VStack gap={8} align="center" w="full" maxW="1200px">
             <Header />
 
-            {/* <HStack gap={4} mb={4} flexWrap="wrap">
+            <HStack gap={4} mb={4} flexWrap="wrap">
               <Button
                 onClick={() => setActiveTab('natal')}
                 colorScheme={activeTab === 'natal' ? 'blue' : 'gray'}
@@ -88,7 +88,7 @@ function App() {
               >
                 Calcolo Tema Natale e Transiti
               </Button>
-            </HStack> */}
+            </HStack>
 
             {activeTab === 'natal' && (
               <>
