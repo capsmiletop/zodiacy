@@ -10,7 +10,7 @@ export default function Footer() {
   const paypalInitializedRef = useRef(false)
   
   // Parse reCAPTCHA keys from environment variables
-  const siteKey = import.meta.env.VITE_CAPTCHA_SITE_KEY || '6LeQ2lEsAAAAAEQ_u1DI09WisUQhrH4q-Ety3QTw'
+  const siteKey = import.meta.env.VITE_CAPTCHA_SITE_KEY
   // const _secretKey = import.meta.env.VITE_CAPTCHA_SECRET_KEY || 'YOUR_CAPTCHA_SECRET_KEY' // For backend use only
 
   useEffect(() => {
