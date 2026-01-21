@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Routes, Route, useLocation } from 'react-router-dom'
 import { fetchTemaNatale, fetchTransitiMensili } from './lib/api'
-import { Box, VStack, Flex, HStack, Button } from '@chakra-ui/react'
+import { Box, VStack, Flex } from '@chakra-ui/react'
 import { Header, NatalForm, NatalResult, WelcomeForm, Footer } from './components'
 
 // Import delle pagine di testing
@@ -16,7 +16,7 @@ function App() {
   const location = useLocation()
   const isTestingRoute = location.pathname.startsWith('/testing')
   const [showWelcome, setShowWelcome] = useState(!isTestingRoute)
-  const [activeTab, setActiveTab] = useState('natal')
+  //const [activeTab, setActiveTab] = useState('natal')
 
   // ====== STATI PER CALCOLO TEMA NATALE E TRANSITI ======
   const [natalResult, setNatalResult] = useState<any>(null)
