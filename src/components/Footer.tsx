@@ -28,7 +28,66 @@ export default function Footer() {
     if (!isLocalhost && !document.querySelector('script[src="https://www.google.com/recaptcha/api.js?hl=it"]')) {
       const script2 = document.createElement('script')
       script2.src = 'https://www.google.com/recaptcha/api.js?hl=it'
+      
+      // Handle reCAPTCHA errors gracefully - hide error messages if domain not allowed
+      script2.onerror = () => {
+        console.warn('reCAPTCHA failed to load - domain may not be authorized')
+        // Hide reCAPTCHA error messages
+        setTimeout(() => {
+          const recaptchaErrors = document.querySelectorAll('[class*="grecaptcha-error"], [id*="recaptcha-error"]')
+          recaptchaErrors.forEach((el) => {
+            ;(el as HTMLElement).style.display = 'none'
+          })
+          // Also hide any error panels related to reCAPTCHA
+          const errorPanels = document.querySelectorAll('.sib-form-message-panel')
+          errorPanels.forEach((panel) => {
+            const text = panel.textContent || ''
+            if (text.includes('dominio') || text.includes('domain') || text.includes('ERRORE')) {
+              ;(panel as HTMLElement).style.display = 'none'
+            }
+          })
+        }, 1000)
+      }
+      
       document.body.appendChild(script2)
+      
+      // Additional check after script loads to hide domain errors
+      script2.onload = () => {
+        const hideDomainErrors = () => {
+          // Hide error elements containing domain-related text
+          const allElements = document.querySelectorAll('*')
+          allElements.forEach((el) => {
+            const text = (el.textContent || '').toLowerCase()
+            const classList = Array.from(el.classList).join(' ').toLowerCase()
+            const id = (el.id || '').toLowerCase()
+            
+            if (
+              (text.includes('dominio') || text.includes('domain') || text.includes('errore')) &&
+              (classList.includes('error') || classList.includes('errore') || id.includes('error'))
+            ) {
+              ;(el as HTMLElement).style.display = 'none'
+            }
+          })
+        }
+        
+        // Run immediately and set up observer for dynamically added errors
+        setTimeout(hideDomainErrors, 1000)
+        setTimeout(hideDomainErrors, 3000)
+        
+        // Watch for dynamically added error messages
+        const observer = new MutationObserver(() => {
+          hideDomainErrors()
+        })
+        
+        observer.observe(document.body, {
+          childList: true,
+          subtree: true,
+          characterData: true
+        })
+        
+        // Stop observing after 10 seconds
+        setTimeout(() => observer.disconnect(), 10000)
+      }
     }
 
     // Set up Brevo form configuration (only set once)
