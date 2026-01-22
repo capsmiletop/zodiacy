@@ -16,7 +16,7 @@ export default function Header() {
           <Image
             src="/zodiacy.png"
             alt="Zodiac Wheel"
-            maxW="300px"
+            maxW={{ base: '200px', md: '250px', lg: '300px' }}
             w="100%"
             h="auto"
             objectFit="contain"

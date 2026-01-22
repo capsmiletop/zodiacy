@@ -49,16 +49,16 @@ export default function WelcomeForm({ onFormCompleted }: WelcomeFormProps) {
 
             <Flex
                 direction={{ base: 'column', lg: 'row' }}
-                minH="100vh"
+                minH="20vh"
                 align="center"
                 justify="center"
                 gap={8}
                 p={{ base: 4, md: 8 }}
             >
-                {/* Left Section - Zodiac Wheel (Desktop only) */}
+                {/* Left Section - Zodiac Wheel */}
                 <Flex
                     flex="1"
-                    display={{ base: 'none', lg: 'flex' }}
+                    display="flex"
                     align="center"
                     justify="center"
                     position="relative"
@@ -66,7 +66,7 @@ export default function WelcomeForm({ onFormCompleted }: WelcomeFormProps) {
                     <Image
                         src="/zodiacy.png"
                         alt="Zodiac Wheel"
-                        maxW="300px"
+                        maxW={{ base: '250px', md: '350px', lg: '400px' }}
                         w="100%"
                         h="auto"
                         objectFit="contain"

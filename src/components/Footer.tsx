@@ -1,13 +1,11 @@
-import { Box, VStack, HStack, Text } from '@chakra-ui/react'
-import { useEffect, useRef } from 'react'
+import { Box, VStack, HStack, Text, Link } from '@chakra-ui/react'
+import { useEffect } from 'react'
 
 /**
- * Footer component with Brevo newsletter subscription form and PayPal button placeholder
+ * Footer component with Brevo newsletter subscription form and PayPal donation link
  * Positioned at the very bottom of all pages, less prominent
  */
 export default function Footer() {
-  const paypalButtonRef = useRef<HTMLDivElement>(null)
-  const paypalInitializedRef = useRef(false)
   
   // Parse reCAPTCHA keys from environment variables
   const siteKey = import.meta.env.VITE_REACT_APP_CAPTCHA_SITE_KEY || '6Lf-blIsAAAAAHwP0AQaxM7QD-OZ0Zj6SmwR_lkN'
@@ -112,147 +110,6 @@ export default function Footer() {
       ;(window as any).AUTOHIDE = Boolean(0)
     }
 
-    // Initialize PayPal button
-    const initializePayPal = () => {
-      // Prevent multiple initializations
-      if (paypalInitializedRef.current) {
-        return
-      }
-
-      // Wait a bit more to ensure DOM is ready
-      setTimeout(() => {
-        const container = paypalButtonRef.current || document.getElementById('paypal-button-container')
-        if (!container) {
-          console.warn('PayPal container not found, retrying...')
-          setTimeout(initializePayPal, 500)
-          return
-        }
-
-        // Hide fallback button first
-        const fallbackButton = document.getElementById('paypal-fallback-button')
-        if (fallbackButton) {
-          fallbackButton.style.display = 'none'
-        }
-
-        // Clear any existing PayPal SDK content (but keep fallback button)
-        // PayPal SDK adds elements with various IDs, so we need to be more specific
-        const allChildren = Array.from(container.children)
-        allChildren.forEach((child) => {
-          // Only remove PayPal SDK elements, not the fallback button
-          if (child.id !== 'paypal-fallback-button') {
-            child.remove()
-          }
-        })
-        
-        // Also check for PayPal SDK iframes and divs
-        const paypalElements = container.querySelectorAll('iframe, [data-paypal-button], [id*="paypal"], [class*="paypal"]')
-        paypalElements.forEach((el) => {
-          if (el.id !== 'paypal-fallback-button') {
-            el.remove()
-          }
-        })
-
-        if (typeof (window as any).paypal === 'undefined') {
-          console.warn('PayPal SDK not loaded yet')
-          if (fallbackButton) {
-            fallbackButton.style.display = 'flex'
-          }
-          return
-        }
-
-        const paypal = (window as any).paypal
-        const paypalClientId = import.meta.env.VITE_PAYPAL_CLIENT_ID || 'YOUR_CLIENT_ID'
-        
-        if (paypalClientId === 'YOUR_CLIENT_ID') {
-          console.warn('PayPal Client ID not set. Please add VITE_PAYPAL_CLIENT_ID to your .env file')
-          if (fallbackButton) {
-            fallbackButton.style.display = 'flex'
-          }
-          return
-        }
-        
-        try {
-          paypalInitializedRef.current = true
-          paypal.Buttons({
-            createOrder: function (_data: any, actions: any) {
-              return actions.order.create({
-                purchase_units: [{
-                  amount: {
-                    value: '10.00',
-                    currency_code: 'EUR'
-                  }
-                }]
-              })
-            },
-            onApprove: function (_data: any, actions: any) {
-              return actions.order.capture().then(function (details: any) {
-                alert('Payment completed by ' + details.payer.name.given_name)
-              })
-            },
-            onError: function (err: any) {
-              console.error('PayPal error:', err)
-              paypalInitializedRef.current = false
-              if (fallbackButton) {
-                fallbackButton.style.display = 'flex'
-              }
-            },
-            style: {
-              color: 'gold',
-              shape: 'rect',
-              label: 'pay',
-              height: 40
-            }
-          }).render(container).catch((err: any) => {
-            console.error('PayPal render error:', err)
-            paypalInitializedRef.current = false
-            if (fallbackButton) {
-              fallbackButton.style.display = 'flex'
-            }
-          })
-        } catch (error) {
-          console.error('Error rendering PayPal button:', error)
-          paypalInitializedRef.current = false
-          if (fallbackButton) {
-            fallbackButton.style.display = 'flex'
-          }
-        }
-      }, 200)
-    }
-
-    // Load PayPal SDK and initialize button
-    const paypalClientId = import.meta.env.VITE_PAYPAL_CLIENT_ID || 'YOUR_CLIENT_ID'
-    
-    if (!document.querySelector('script[src*="paypal.com/sdk/js"]')) {
-      const paypalScript = document.createElement('script')
-      paypalScript.src = `https://www.paypal.com/sdk/js?client-id=${paypalClientId}&currency=EUR`
-      paypalScript.async = true
-      
-      paypalScript.onload = () => {
-        console.log('PayPal SDK loaded')
-        initializePayPal()
-      }
-      
-      paypalScript.onerror = () => {
-        console.error('Failed to load PayPal SDK')
-        // Show placeholder button on error
-        setTimeout(() => {
-          const container = paypalButtonRef.current || document.getElementById('paypal-button-container')
-          if (container) {
-            container.innerHTML = `
-              <div style="background-color: #FFC439; border-radius: 8px; padding: 12px 24px; cursor: pointer; text-align: center; width: 100%;">
-                <span style="font-family: Arial, sans-serif; font-size: 18px; font-weight: 600; font-style: italic; color: #003087;">Pay</span>
-                <span style="font-family: Arial, sans-serif; font-size: 18px; font-weight: 600; font-style: italic; color: #009CDE;">Pal</span>
-              </div>
-            `
-          }
-        }, 500)
-      }
-      
-      document.body.appendChild(paypalScript)
-    } else {
-      // Script already loaded, try to initialize
-      initializePayPal()
-    }
   }, [])
 
   return (
@@ -275,10 +132,45 @@ export default function Footer() {
           flexWrap="wrap"
           w="full"
         >
+           {/* PayPal Donation Link */}
+           <Box
+            w="full"
+            maxW="250px"
+            textAlign="center"
+            mt="30px"
+          >
+            <Link
+              href="https://www.paypal.com/donate/?hosted_button_id=UDHFHDVX5Z67C"
+              target="_blank"
+              rel="noopener noreferrer"
+              display="flex"
+              justifyContent="center"
+              alignItems="center"
+              w="full"
+              minH="50px"
+              bg="#FFC439"
+              color="#003087"
+              borderRadius="8px"
+              px={6}
+              py={3}
+              fontWeight="600"
+              fontSize="18px"
+              fontStyle="italic"
+              _hover={{
+                bg: '#FFB800',
+                textDecoration: 'none'
+              }}
+              transition="background-color 0.2s"
+            >
+              <Text as="span" color="#003087">Pay</Text>
+              <Text as="span" color="#009CDE">Pal</Text>
+            </Link>
+          </Box>
+
           {/* Brevo Newsletter Form */}
           <Box
             w="full"
-            maxW="540px"
+            maxW="700px"
             dangerouslySetInnerHTML={{
               __html: `
                 <style>
@@ -467,49 +359,10 @@ export default function Footer() {
               `,
             }}
           />
-
-          {/* PayPal Button */}
-          <Box
-            w="full"
-            maxW="250px"
-            textAlign="center"
-          >
-            <Text fontSize="xs" color="rgba(255, 255, 255, 0.7)" mb={3} fontWeight="medium">
-            
-            </Text>
-            <Box
-              ref={paypalButtonRef}
-              id="paypal-button-container"
-              w="full"
-              minH="50px"
-              display="flex"
-              justifyContent="center"
-              alignItems="center"
-            >
-            </Box>
-            <style>{`
-              #paypal-button-container iframe,
-              #paypal-button-container > div {
-                width: 100% !important;
-              }
-              #paypal-button-container .paypal-button,
-              #paypal-button-container button {
-                background-color: #FFC439 !important;
-                border-radius: 8px !important;
-                padding: 12px 24px !important;
-                border: none !important;
-                width: 100% !important;
-              }
-              #paypal-button-container .paypal-button:hover,
-              #paypal-button-container button:hover {
-                background-color: #FFB800 !important;
-              }
-            `}</style>
-          </Box>
         </HStack>
 
                     {/* Footer */}
-                    <VStack
+            <VStack
                 gap={2}
                 mt="40px"
                 pb="60px"
