@@ -74,7 +74,11 @@ function App() {
     }
 
     return (
-      <Box minH="100vh" bg="#1b203e" color="white" display="flex" flexDirection="column">
+      <Box minH="100vh" bg="#1b203e" color="white" display="flex" flexDirection="column" 
+        style={{
+          backgroundImage: `url('/background-stars.png')`
+        }}
+      >
         <Flex direction="column" align="center" justify="flex-start" flex="1" p={8}>
           <VStack gap={8} align="center" w="full" maxW="1200px">
             <Header />

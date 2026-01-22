@@ -2,9 +2,16 @@ import { Box, Image, Center, VStack } from '@chakra-ui/react'
 
 export default function Header() {
   return (
-    <Box as="header" w="100%" py={6} bg="#1b203e">
+    <Box as="header" w="100%" py={6} bg="#1b203e" 
+      style={{
+        backgroundImage: `url('/background-stars.png')`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat'
+      }}
+    >
       <Center>
-        <VStack gap={6} align="center">
+        <VStack gap={6} align="center" >
           <Image
             src="/Logo.png"
             alt="Zodiacy Logo"
