@@ -223,7 +223,8 @@ export default function NatalForm({
             bg="rgba(32, 38, 65, 0.9)" 
             borderRadius="xl" 
             border="1px solid" 
-            borderColor="rgba(255, 255, 255, 0.1)">
+            borderColor="rgba(255, 255, 255, 0.1)"
+            >
             <Toaster />
             <VStack gap={8} align="stretch">
                 {/* Header */}

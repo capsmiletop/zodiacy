@@ -25,10 +25,8 @@ export default function WelcomeForm({ onFormCompleted }: WelcomeFormProps) {
             bg="#1b203e" 
             color="white"
             position="relative"
-            overflow="hidden"
             style={{
-                backgroundImage: `radial-gradient(circle at 2px 2px, rgba(255,255,255,0.15) 1px, transparent 0)`,
-                backgroundSize: '40px 40px'
+                backgroundImage: `url('/background-stars.png')`
             }}
         >
             {/* ZODIACY Logo - Positioned 30px from top, centered on mobile */}
